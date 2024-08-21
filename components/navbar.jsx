@@ -43,10 +43,6 @@ export default function Navbar() {
   useEffect(() => {
     if (width <= 980) {
       if (openHamburger === true) {
-        gsap.to(Hamburger.current, 0, { display: "none" });
-        gsap.to(Cross.current, 0, { display: "block" });
-        gsap.to(Menu.current, 0.8, { display: "flex", opacity: 1 });
-        gsap.to(Background.current, 0.8, { display: "block", opacity: 0.8 });
         if (height <= 550) {
           gsap.to(Menu.current, 0, {
             top: "80px",
@@ -87,11 +83,6 @@ export default function Navbar() {
             lineHeight: "24px",
           });
         }
-      } else {
-        gsap.to(Hamburger.current, 0, { display: "block" });
-        gsap.to(Cross.current, 0, { display: "none" });
-        gsap.to(Menu.current, 0.8, { display: "none", opacity: 0 });
-        gsap.to(Background.current, 0.8, { display: "none", opacity: 0 });
       }
     }
   }, [openHamburger, width, height]);
@@ -109,23 +100,31 @@ export default function Navbar() {
       <div
         ref={Hamburger}
         onClick={handleHamburger}
-        className="h-[20px] w-[80px] border-t-[2px] border-b-[2px] hidden max-hamburger:block border-white curser-pointer"
+        className={`${
+          openHamburger ? "hidden" : "hidden max-hamburger:block"
+        } h-[20px] w-[80px] border-t-[2px] border-b-[2px] border-white curser-pointer`}
       ></div>
       <div
         ref={Cross}
         onClick={handleHamburgerClose}
-        className="w-[40px] text-3xl z-50 invert text-right font-['Graphikthin'] hidden border-white curser-pointer"
+        className={`${
+          openHamburger ? "block" : "hidden"
+        } w-[40px] text-3xl z-50 invert text-right font-['Graphikthin'] border-white curser-pointer`}
       >
         {" "}
         <Image src="/close.svg" width={36} height={36} />
       </div>
       <div
         ref={Background}
-        className="flex bg-black max-hamburger:opacity-0 blur-[5px] absolute hidden w-[100%] h-[100vh] top-0 left-0"
+        className={`${
+          openHamburger ? "block opacity-1" : "hidden max-hamburger:opacity-0"
+        } bg-black transition-opacity duration-500 blur-[5px] absolute w-[100%] h-[100vh] top-0 left-0`}
       ></div>
       <ul
         ref={Menu}
-        className="list-none flex gap-[52px] max-hamburger:opacity-0 max-xl:gap-[40px] max-hamburger:hidden max-smalllaptop:gap-[15px] max-sm:gap-[20px] max-sm:top-[101px] max-sm:h-[calc(100vh-121px)] max-hamburger:flex-col max-hamburger:absolute max-sm:h-[calc(100vh-181px)] max-hamburger:top-[150px] max-hamburger:text-right max-hamburger:w-[calc(100%-160px)] max-md:w-[calc(100%-80px)] max-sm:w-[calc(100%-40px)]"
+        className={`${
+          openHamburger ? "flex opacity-1" : "max-hamburger:hidden max-hamburger:opacity-0"
+        } list-none transition-opacity duration-500 flex gap-[52px] max-xl:gap-[40px] max-smalllaptop:gap-[15px] max-sm:gap-[20px] max-sm:top-[101px] max-sm:h-[calc(100vh-121px)] max-hamburger:flex-col max-hamburger:absolute max-sm:h-[calc(100vh-181px)] max-hamburger:top-[150px] max-hamburger:text-right max-hamburger:w-[calc(100%-160px)] max-md:w-[calc(100%-80px)] max-sm:w-[calc(100%-40px)]`}
       >
         <Link
           href={"/courses/quick-batch"}
