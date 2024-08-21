@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: black;
+}
+input::placeholder {
+  color: #000;
+}
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+input[type="radio"]:checked {
+  background-color: blue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: Graphik;
+  color: white;
+  background: black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+@font-face {
+  font-family: Graphik;
+  src: url("../public/GraphikRegular.woff2");
+}
+@font-face {
+  font-family: Graphikthinner;
+  src: url("../public/GraphikThin.woff");
+}
+@font-face {
+  font-family: Graphikthin;
+  src: url("../public/Graphik-Light-Trial.otf");
+}
+@font-face {
+  font-family: Graphikmedium;
+  src: url("../public/Graphik-Extralight-Trial.otf");
+}
+@font-face {
+  font-family: Clash;
+  src: url("../public/ClashDisplayBold.otf");
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.mixblend {
+  mix-blend-mode: color-dodge;
+}
+input {
+  outline: none;
+  font-size: 17.51px;
+  line-height: 21.54px;
+  color: #ffffff99;
+}
+input::placeholder {
+  font-size: 17.51px;
+  line-height: 21.54px;
+  color: #ffffff99;
+}
+.card:hover .button {
+  background-color: #30e29d;
+  color: #1f1f1f;
+}
+.button:hover {
+  box-shadow: 1px 1px 120px #30e29d;
+}
