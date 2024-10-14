@@ -4,10 +4,24 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Upskill from "../components/upskill";
 import Success from "../components/success";
+import Head from "next/head";
 
 export default function About() {
   return (
     <>
+      <Head>
+        <title>ParallelEdu | About Us</title>
+        <link rel="canonical" href="https://www.paralleledu.com/about" />
+        <meta
+          name="description"
+          content="At Parallel, affordability is just the beginning. We are deeply
+                invested in your upskilling journey and your success."
+        />
+        <meta
+          name="keywords"
+          content="paralleledu, paralleledu learn, parallel, learn webdev, learn trending skills, hire IT professionals, free courses online, full stack development, frontend development, backend development, learn Reactjs, HTML, CSS, javascript, learn HTML, learn CSS, learn JS, learn frontend development, learn backend development, learn fullstack development, fullstack course, frontend course, backend course, paralleledu.com, educational website"
+        />
+      </Head>
       <Navbar />
       <div className="absolute w-[100vw] h-[822px] top-0 left-0 overflow-hidden">
         <div className={style.fullgrid}></div>
@@ -80,9 +94,7 @@ export default function About() {
                 receive the most valuable education possible, we maintain
                 rigorous content standards.
               </p>
-              <div
-                className="relative pt-[36px] w-[350px]"
-              >
+              <div className="relative pt-[36px] w-[350px]">
                 <Image
                   src="/Union2.png"
                   className="absolute max-lg:hidden z-20"

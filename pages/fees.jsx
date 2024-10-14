@@ -7,6 +7,7 @@ import Success from "../components/success";
 import Link from "next/link";
 import axios from "axios";
 import { useState } from "react";
+import Head from "next/head";
 
 export default function Fees() {
   const [Name, setName] = useState("");
@@ -22,13 +23,28 @@ export default function Fees() {
     try {
       const response = await axios.post("/api/fees", data);
       console.log("Data sent successfully:", response.data);
-      window.alert('Thank you ' + Name + '! Your form has been submitted successfully.')
+      window.alert(
+        "Thank you " + Name + "! Your form has been submitted successfully."
+      );
     } catch (error) {
       console.error("Error sending data:", error);
     }
   };
   return (
     <>
+      <Head>
+        <title>ParallelEdu | Fees</title>
+        <link rel="canonical" href="https://www.paralleledu.com/fees" />
+        <meta
+          name="description"
+          content="A plethora of topics to upskill on."
+        />
+        <meta
+          name="keywords"
+          content="paralleledu, paralleledu learn, parallel, learn webdev, learn trending skills, hire IT professionals, free courses online, full stack development, frontend development, backend development, learn Reactjs, HTML, CSS, javascript, learn HTML, learn CSS, learn JS, learn frontend development, learn backend development, learn fullstack development, fullstack course, frontend course, backend course, paralleledu.com, educational website"
+        />
+      </Head>
+      <Navbar />
       <Navbar />
       <div className="absolute z-20 w-[100%] h-[822px] top-[-200px] overflow-hidden">
         <div className={style.backgroundcolor}></div>

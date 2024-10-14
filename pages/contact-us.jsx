@@ -4,6 +4,7 @@ import Image from "next/image";
 import style from "@/styles/style.module.css";
 import Footer from "../components/footer";
 import axios from "axios";
+import Head from "next/head";
 
 export default function Contact() {
   const [iam, setiam] = useState("Select an option");
@@ -27,7 +28,9 @@ export default function Contact() {
     try {
       const response = await axios.post("/api/contact-us", data);
       console.log("Data sent successfully:", response.data);
-      window.alert('Thank you ' + Name + '! Your form has been submitted successfully.')
+      window.alert(
+        "Thank you " + Name + "! Your form has been submitted successfully."
+      );
     } catch (error) {
       console.error("Error sending data:", error);
     }
@@ -41,7 +44,7 @@ export default function Contact() {
   };
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    setIamOpen(false)
+    setIamOpen(false);
   };
   const handleOptionSelect = (option) => {
     sethelp(option);
@@ -49,7 +52,7 @@ export default function Contact() {
   };
   const toggleIamMenu = () => {
     setIamOpen(!iamOpen);
-    setIsOpen(false)
+    setIsOpen(false);
   };
   const handleIamOptionSelect = (option) => {
     setiam(option);
@@ -57,6 +60,22 @@ export default function Contact() {
   };
   return (
     <>
+      <Head>
+        <title>ParallelEdu | Contact Us</title>
+        <link
+          rel="canonical"
+          href="https://www.paralleledu.com/contact-us"
+        />
+        <meta
+          name="description"
+          content="At Parallel, affordability is just the beginning. We are deeply
+                invested in your upskilling journey and your success."
+        />
+        <meta
+          name="keywords"
+          content="paralleledu, paralleledu learn, parallel, learn webdev, learn trending skills, hire IT professionals, free courses online, full stack development, frontend development, backend development, learn Reactjs, HTML, CSS, javascript, learn HTML, learn CSS, learn JS, learn frontend development, learn backend development, learn fullstack development, fullstack course, frontend course, backend course, paralleledu.com, educational website"
+        />
+      </Head>
       <Navbar />
       <div className="absolute z-20 w-[100%] h-[822px] top-[-200px] overflow-hidden">
         <div className={style.backgroundcolor}></div>

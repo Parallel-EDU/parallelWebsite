@@ -6,6 +6,7 @@ import Link from "next/link";
 import axios from "axios";
 import { useState } from "react";
 import Success from "@/components/success";
+import Head from "next/head";
 
 export default function Courses() {
   const [Name, setName] = useState("");
@@ -23,13 +24,27 @@ export default function Courses() {
     try {
       const response = await axios.post("/api/hire-from-us", data);
       console.log("Data sent successfully:", response.data);
-      window.alert('Thank you ' + Name + '! Your form has been submitted successfully.')
+      window.alert(
+        "Thank you " + Name + "! Your form has been submitted successfully."
+      );
     } catch (error) {
       console.error("Error sending data:", error);
     }
   };
   return (
     <>
+      <Head>
+        <title>ParallelEdu | Hire From Us</title>
+        <link rel="canonical" href="https://www.paralleledu.com/hire-from-us" />
+        <meta
+          name="description"
+          content="Hire the best professionals at zero cost."
+        />
+        <meta
+          name="keywords"
+          content="paralleledu, paralleledu learn, parallel, learn webdev, learn trending skills, hire IT professionals, free courses online, full stack development, frontend development, backend development, learn Reactjs, HTML, CSS, javascript, learn HTML, learn CSS, learn JS, learn frontend development, learn backend development, learn fullstack development, fullstack course, frontend course, backend course, paralleledu.com, educational website"
+        />
+      </Head>
       <Navbar />
       <div className="absolute w-[100vw] h-[822px] top-0 left-0 overflow-hidden">
         <div className={style.fullgrid}></div>
@@ -37,11 +52,7 @@ export default function Courses() {
       <main className="pl-[79.85px] z-[2] relative max-md:px-[40px] max-sm:px-[20px] pr-[79.03px] pt-[88px] pb-[132px] flex justify-between max-hamburger:flex-col max-hamburger:gap-[30px]">
         <div className="mt-[27.66px]">
           <h1 className="w-[680.41px] max-smalllaptop:w-[580px] max-md:w-full font-['Graphikthin'] text-[104.57px] leading-[102.48px] tracking-[-5.2px] text-[#E5E5E5] font-light  max-smalllaptop:tracking-[-2.56px] max-smalllaptop:text-[84px] max-sm:text-[64px] max-smallphone:text-[36px] max-sm:tracking-tight max-smalllaptop:leading-[102%]">
-            Hire the best professio
-            <span className="hidden max-smallphone:inline">
-              <br />-{" "}
-            </span>
-            nals at zero cost.{" "}
+            Hire the best professionals at zero cost.
           </h1>
           <Link href={"/contact-us-to-hire"}>
             <button className="w-[165px] max-hamburger:hidden mt-[49.05px] h-[53px] bg-[#30E29D] rounded-[8px] font-bold text-[#292929] text-[16px] font-[19.2px]">

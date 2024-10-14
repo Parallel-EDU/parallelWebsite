@@ -4,6 +4,7 @@ import Image from "next/image";
 import style from "@/styles/style.module.css";
 import Footer from "../components/footer";
 import axios from "axios";
+import Head from "next/head";
 
 export default function Contact() {
   const [Name, setName] = useState("");
@@ -21,13 +22,30 @@ export default function Contact() {
     try {
       const response = await axios.post("/api/hire-from-us", data);
       console.log("Data sent successfully:", response.data);
-      window.alert('Thank you ' + Name + '! Your form has been submitted successfully.')
+      window.alert(
+        "Thank you " + Name + "! Your form has been submitted successfully."
+      );
     } catch (error) {
       console.error("Error sending data:", error);
     }
   };
   return (
     <>
+      <Head>
+        <title>ParallelEdu | Contact Us</title>
+        <link
+          rel="canonical"
+          href="https://www.paralleledu.com/contact-us-to-hire"
+        />
+        <meta
+          name="description"
+          content="Hire the best professionals at zero cost."
+        />
+        <meta
+          name="keywords"
+          content="paralleledu, paralleledu learn, parallel, learn webdev, learn trending skills, hire IT professionals, free courses online, full stack development, frontend development, backend development, learn Reactjs, HTML, CSS, javascript, learn HTML, learn CSS, learn JS, learn frontend development, learn backend development, learn fullstack development, fullstack course, frontend course, backend course, paralleledu.com, educational website"
+        />
+      </Head>
       <Navbar />
       <div className="absolute z-20 w-[100%] h-[822px] top-[-400px] overflow-hidden">
         <div className={style.backgroundcolor}></div>

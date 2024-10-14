@@ -3,10 +3,23 @@ import style from "@/styles/style.module.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Signup() {
   return (
     <>
+      <Head>
+        <title>ParallelEdu | Signup</title>
+        <link rel="canonical" href="https://www.paralleledu.com/signup" />
+        <meta
+          name="description"
+          content="Upskill and get placed at an affordable price."
+        />
+        <meta
+          name="keywords"
+          content="paralleledu, paralleledu learn, parallel, learn webdev, learn trending skills, hire IT professionals, free courses online, full stack development, frontend development, backend development, learn Reactjs, HTML, CSS, javascript, learn HTML, learn CSS, learn JS, learn frontend development, learn backend development, learn fullstack development, fullstack course, frontend course, backend course, paralleledu.com, educational website"
+        />
+      </Head>
       <Navbar />
       <div className="absolute left-0 z-10 top-[-101px] w-[100%] h-[844px]">
         <Image

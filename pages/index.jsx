@@ -8,6 +8,7 @@ import Success from "../components/success";
 import Link from "next/link";
 import { Linear, gsap } from "gsap";
 import axios from "axios";
+import Head from "next/head";
 
 export default function Home() {
   const [Role, setRole] = useState("Select an option");
@@ -81,6 +82,18 @@ export default function Home() {
   };
   return (
     <>
+      <Head>
+        <title>ParallelEdu</title>
+        <link rel="canonical" href="https://www.paralleledu.com/" />
+        <meta
+          name="description"
+          content="Upskill and get placed at an affordable price."
+        />
+        <meta
+          name="keywords"
+          content="paralleledu, paralleledu learn, parallel, learn webdev, learn trending skills, hire IT professionals, free courses online, full stack development, frontend development, backend development, learn Reactjs, HTML, CSS, javascript, learn HTML, learn CSS, learn JS, learn frontend development, learn backend development, learn fullstack development, fullstack course, frontend course, backend course, paralleledu.com, educational website"
+        />
+      </Head>
       <Navbar />
       <div className="absolute z-20 w-[100%] h-[822px] top-[-200px] overflow-hidden">
         <div className={style.backgroundcolor}></div>

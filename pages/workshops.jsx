@@ -6,6 +6,7 @@ import Link from "next/link";
 import axios from "axios";
 import { useState } from "react";
 import Success from "@/components/success";
+import Head from "next/head";
 
 export default function Workshop() {
   const [Name, setName] = useState("");
@@ -32,6 +33,18 @@ export default function Workshop() {
   };
   return (
     <>
+      <Head>
+        <title>ParallelEdu | Workshops</title>
+        <link rel="canonical" href="https://www.paralleledu.com/workshops" />
+        <meta
+          name="description"
+          content="Upskill and get placed at an affordable price."
+        />
+        <meta
+          name="keywords"
+          content="paralleledu, paralleledu learn, parallel, learn webdev, learn trending skills, hire IT professionals, free courses online, full stack development, frontend development, backend development, learn Reactjs, HTML, CSS, javascript, learn HTML, learn CSS, learn JS, learn frontend development, learn backend development, learn fullstack development, fullstack course, frontend course, backend course, paralleledu.com, educational website"
+        />
+      </Head>
       <Navbar />
       <div className="absolute w-[100vw] h-[822px] top-0 left-0 overflow-hidden">
         <div className={style.fullgrid}></div>
