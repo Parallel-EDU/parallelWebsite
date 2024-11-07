@@ -92,7 +92,7 @@ export default function Navbar() {
       <Link href={"/"} className="flex gap-[2.74px]">
         <Image
           src="/Frame 96.svg"
-          className="py-[7px]"
+          className="py-[7px] widescreen:w-[160px] widestscreen:w-[180px]"
           width={139.45}
           height={26}
         />
@@ -129,56 +129,56 @@ export default function Navbar() {
         <Link
           href={"/courses/quick-batch"}
           ref={Menuitems9}
-          className="text-[16px] italic text-[#30E29D] font-semibold relative leading-[24px] max-hamburger:py-0 py-[8px]"
+          className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] italic text-[#30E29D] font-semibold relative leading-[24px] max-hamburger:py-0 py-[8px]"
         >
           QUICK BATCH
         </Link>
         <Link
           href={"/about"}
           ref={Menuitems1}
-          className="text-[16px] relative leading-[24px] max-hamburger:py-0 py-[8px]"
+          className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] relative leading-[24px] max-hamburger:py-0 py-[8px]"
         >
           About
         </Link>
         <Link
           href={"/workshops"}
           ref={Menuitems2}
-          className="text-[16px] relative leading-[24px] py-[8px] max-hamburger:py-0"
+          className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] relative leading-[24px] py-[8px] max-hamburger:py-0"
         >
           Workshops
         </Link>
         <Link
           href={"/courses"}
           ref={Menuitems3}
-          className="text-[16px] relative leading-[24px] py-[8px] max-hamburger:py-0"
+          className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] relative leading-[24px] py-[8px] max-hamburger:py-0"
         >
           Courses
         </Link>
         {/* <Link
           href={"/fees"}
           ref={Menuitems4}
-          className="text-[16px] relative leading-[24px] py-[8px] max-hamburger:py-0"
+          className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] relative leading-[24px] py-[8px] max-hamburger:py-0"
         >
           Fees
         </Link> */}
         <Link
           href={"/hire-from-us"}
           ref={Menuitems5}
-          className="text-[16px] relative leading-[24px] py-[8px] max-hamburger:py-0"
+          className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] relative leading-[24px] py-[8px] max-hamburger:py-0"
         >
           Hire from us
         </Link>
         <Link
           href={"/refer-us"}
           ref={Menuitems6}
-          className="text-[16px] relative leading-[24px] py-[8px] max-hamburger:py-0"
+          className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] relative leading-[24px] py-[8px] max-hamburger:py-0"
         >
           Refer us
         </Link>
         <Link
           href={"/contact-us"}
           ref={Menuitems8}
-          className="text-[16px] hidden max-smallphone:block relative leading-[24px] py-[8px] max-hamburger:py-0"
+          className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hidden max-smallphone:block relative leading-[24px] py-[8px] max-hamburger:py-0"
         >
           Contact us
         </Link>
@@ -186,7 +186,7 @@ export default function Navbar() {
           <Link
             href={"/signup"}
             ref={Menuitems7}
-            className="text-[16px] max-lg:px-[16px] relative bg-[#30E29D] max-hamburger:bottom-0 max-sm:w-full max-hamburger:text-center max-hamburger:w-[300px] text-black py-[8px] px-[24px] rounded-[8px] leading-[24px] py-[8px] font-semibold"
+            className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] max-lg:px-[16px] relative bg-[#30E29D] max-hamburger:bottom-0 max-sm:w-full max-hamburger:text-center max-hamburger:w-[300px] text-black py-[8px] px-[24px] rounded-[8px] leading-[24px] py-[8px] font-semibold"
           >
             Sign up
           </Link>

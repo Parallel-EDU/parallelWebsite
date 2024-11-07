@@ -25,7 +25,7 @@ export default function Upskill() {
         <Image src="/Frame 86.png" className="max-sm:w-[280px]" width={525.14} height={139} />
       </Link>
       <section className="py-[157px] max-hamburger:hidden flex max-sm:py-0 justify-center">
-        <h1 className="w-[977.71px] max-lg:w-full max-lg:px-[80px] max-md:px-[40px] max-sm:px-[20px] text-[97.52px] max-smalllaptop:text-[74px] max-sm:text-[54px] max-smalllaptop:leading-[102%] leading-[94px] tracking-[-3.9px] text-center z-20 text-[#E5E5E5] font-['Graphikthin']">
+        <h1 className="w-[977.71px] max-lg:w-full max-lg:px-[80px] max-md:px-[40px] max-sm:px-[20px] text-[97.52px] widescreen:text-[107px] widestscreen:text-[117px] widescreen:leading-[120%] widescreen:w-[50%] max-smalllaptop:text-[74px] max-sm:text-[54px] max-smalllaptop:leading-[102%] leading-[94px] tracking-[-3.9px] text-center z-20 text-[#E5E5E5] font-['Graphikthin']">
           Upskilling has never been cheaper.
         </h1>
       </section>

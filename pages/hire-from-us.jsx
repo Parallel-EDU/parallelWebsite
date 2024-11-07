@@ -51,11 +51,11 @@ export default function Courses() {
       </div>
       <main className="pl-[79.85px] z-[2] relative max-md:px-[40px] max-sm:px-[20px] pr-[79.03px] pt-[88px] pb-[132px] flex justify-between max-hamburger:flex-col max-hamburger:gap-[30px]">
         <div className="mt-[27.66px]">
-          <h1 className="w-[680.41px] max-smalllaptop:w-[580px] max-md:w-full font-['Graphikthin'] text-[104.57px] leading-[102.48px] tracking-[-5.2px] text-[#E5E5E5] font-light  max-smalllaptop:tracking-[-2.56px] max-smalllaptop:text-[84px] max-sm:text-[64px] max-smallphone:text-[36px] max-sm:tracking-tight max-smalllaptop:leading-[102%]">
+          <h1 className="w-[680.41px] widescreen:w-[900px] widestscreen:w-[1000px] max-smalllaptop:w-[580px] max-md:w-full font-['Graphikthin'] text-[104.57px] leading-[102.48px] tracking-[-5.2px] text-[#E5E5E5] font-light  max-smalllaptop:tracking-[-2.56px] max-smalllaptop:text-[84px] max-sm:text-[64px] max-smallphone:text-[36px] widescreen:text-[114px] widestscreen:text-[125px] widescreen:leading-[120%] max-sm:tracking-tight max-smalllaptop:leading-[102%]">
             Hire the best professionals at zero cost.
           </h1>
           <Link href={"/contact-us-to-hire"}>
-            <button className="w-[165px] max-hamburger:hidden mt-[49.05px] h-[53px] bg-[#30E29D] rounded-[8px] font-bold text-[#292929] text-[16px] font-[19.2px]">
+            <button className="w-[165px] widescreen:w-auto widescreen:h-auto widescreen:py-[12px] widestscreen:py-[18px] widescreen:px-[16px] widestscreen:px-[24px] max-hamburger:hidden mt-[49.05px] h-[53px] bg-[#30E29D] rounded-[8px] font-bold text-[#292929] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-[19.2px]">
               Contact Us{" "}
             </button>
           </Link>
@@ -67,14 +67,14 @@ export default function Courses() {
           height={493}
         />
         <Link href={"/contact-us"} className="max-hamburger:block hidden">
-          <button className="max-md:w-full w-[165px] mt-[20px] h-[53px] bg-[#30E29D] rounded-[8px] font-bold text-[#292929] text-[16px] font-[19.2px]">
+          <button className="max-md:w-full w-[165px] mt-[20px] h-[53px] bg-[#30E29D] rounded-[8px] font-bold text-[#292929] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-[19.2px]">
             Contact Us{" "}
           </button>
         </Link>
       </main>
       <section className="px-[80px] max-md:px-[40px] max-sm:px-[20px] max-sm:py-0 relative pb-[96px] pt-[96.09px] flex flex-col justify-center items-center gap-[59.91px]">
-        <div className="w-[890.53px] max-hamburger:w-full">
-          <h1 className="text-center text-[#E5E5E5] relative z-20 text-[64px] max-hamburger:text-[45px] max-sm:text-[32px] max-hamburger:leading-[120%] font-['Graphikthin'] leading-[61.68px] font-light tracking-[-2.56px] max-sm:tracking-tight ">
+        <div className="w-[890.53px] widescreen:w-[1090px] widestscreen:w-[1290px] max-hamburger:w-full">
+          <h1 className="text-center text-[#E5E5E5] relative z-20 text-[64px] widescreen:text-[74px] widestscreen:text-[84px]  widescreen:leading-[120%] max-hamburger:text-[45px] max-sm:text-[32px] max-hamburger:leading-[120%] font-['Graphikthin'] leading-[61.68px] font-light tracking-[-2.56px] max-sm:tracking-tight ">
             Our hiring partners never waste time screening thousands of unready
             candidates.{" "}
           </h1>
@@ -82,61 +82,61 @@ export default function Courses() {
         <div className="flex flex-wrap items-center justify-center z-20 gap-x-[22px] gap-y-[27px]">
           <Image
             src="/Frame 1000002729.png"
-            className="relative z-20 max-sm:w-[46%]"
+            className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
           />
           <Image
             src="/Frame 1000002730.png"
-            className="relative z-20 max-sm:w-[46%]"
+            className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
           />
           <Image
             src="/Frame 1000002731.png"
-            className="relative z-20 max-sm:w-[46%]"
+            className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
           />
           <Image
             src="/Frame 1000002732.png"
-            className="relative z-20 max-sm:w-[46%]"
+            className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
           />
           <Image
             src="/Frame 1000002733.png"
-            className="relative z-20 max-sm:w-[46%]"
+            className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
           />
           <Image
             src="/Frame 1000002734.png"
-            className="relative z-20 max-sm:w-[46%]"
+            className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
           />
           <Image
             src="/Frame 1000002729 (1).png"
-            className="relative z-20 max-sm:w-[46%]"
+            className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
           />
           <Image
             src="/Frame 1000002732 (1).png"
-            className="relative z-20 max-sm:w-[46%]"
+            className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
           />
           <Image
             src="/Frame 1000002730 (1).png"
-            className="relative z-20 max-sm:w-[46%]"
+            className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
           />
           <Image
             src="/Frame 1000002731 (1).png"
-            className="relative z-20 max-sm:w-[46%]"
+            className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
           />
@@ -144,7 +144,7 @@ export default function Courses() {
       </section>
       <section className="pt-[72.09px] max-sm:py-20 max-sm:px-[20px] max-md:px-[40px] relative z-20 pb-[95px] pl-[79.53px] pr-[78.85px]">
         <div className="flex justify-between max-smalllaptop:gap-[50px]">
-          <p className="w-[890.53px] font-['Graphikthin'] text-[64px] max-hamburger:text-[45px] max-sm:text-[32px] max-hamburger:leading-[120%] font-light leading-[61.68px] tracking-[-2.56px] max-sm:tracking-tight text-[#E5E5E5]">
+          <p className="w-[890.53px] widescreen:w-[60%] widestscreen:w-[50%] font-['Graphikthin'] text-[64px] widescreen:text-[74px] widestscreen:text-[84px]  widescreen:leading-[120%] max-hamburger:text-[45px] max-sm:text-[32px] max-hamburger:leading-[120%] font-light leading-[61.68px] tracking-[-2.56px] max-sm:tracking-tight text-[#E5E5E5]">
             Candidates from Parallel have skills tailored to industry needs.{" "}
           </p>
         </div>
@@ -159,14 +159,14 @@ export default function Courses() {
                 {" "}
                 <Image src="/1.svg" width={51.73} height={51.73} />
               </div>
-              <h1 className="w-[340px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
+              <h1 className="w-[340px] widescreen:w-full widescreen:h-[92px] widestscreen:h-[100px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Hire only the top 1
                 <span className="font-['Graphik'] font-light opacity-90">
                   %
                 </span>{" "}
                 of the candidates{" "}
               </h1>
-              <p className="w-[355.15px] opacity-80 text-[#E0E0E0] text-base max-bigscreen:w-[310px] max-xl:w-full">
+              <p className="w-[355.15px] opacity-80 widescreen:w-full text-[#E0E0E0] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] max-bigscreen:w-[310px] max-xl:w-full">
                 Our students are filtered multiple times. We utilize a
                 multi-layered screening process that combines in-depth
                 interviews, advanced skills testing, and reference checks to
@@ -184,10 +184,10 @@ export default function Courses() {
                 {" "}
                 <Image src="/brain.svg" width={51.73} height={51.73} />
               </div>
-              <h1 className="w-[340px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
+              <h1 className="w-[340px] widescreen:w-full widescreen:h-[92px] widestscreen:h-[100px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Get candidates with relevant skills{" "}
               </h1>
-              <p className="w-[355.15px] opacity-80 text-[#E0E0E0] text-base max-bigscreen:w-[310px] max-xl:w-full">
+              <p className="w-[355.15px] opacity-80 widescreen:w-full text-[#E0E0E0] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] max-bigscreen:w-[310px] max-xl:w-full">
                 We train our students only on relevant skills. We utilize
                 skill-specific tests, portfolio reviews, and reference checks to
                 ensure candidates possess the necessary proficiency.
@@ -204,10 +204,10 @@ export default function Courses() {
                 {" "}
                 <Image src="/multiuser.svg" width={60} height={60} />
               </div>
-              <h1 className="w-[340px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
+              <h1 className="w-[340px] widescreen:w-full widescreen:h-[92px] widestscreen:h-[100px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Don’t worry about hiring the wrong people{" "}
               </h1>
-              <p className="w-[355.15px] opacity-80 text-[#E0E0E0] text-base max-bigscreen:w-[310px] max-xl:w-full">
+              <p className="w-[355.15px] opacity-80 widescreen:w-full text-[#E0E0E0] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] max-bigscreen:w-[310px] max-xl:w-full">
                 We make sure to put our candidates through multiple behavioral
                 assessments. With whom you can build a strong, collaborative
                 environment where employees feel valued and engaged.
@@ -216,21 +216,12 @@ export default function Courses() {
           </div>
         </div>
       </section>
-      {/* <section className="relative z-20 py-[80px]">
-        <p className="text-[20px] pl-20 max-md:px-[40px] max-sm:px-[20px] leading-[19.28px] text-[#E5E5E5] opacity-80 font-['Graphikthin'] font-light mb-[20px]">
-          Success stories
-        </p>
-        <h1 className="w-[813.91px] max-hamburger:w-full ml-20 max-hamburger:px-20 max-hamburger:ml-0 max-md:px-[40px] max-sm:px-[20px] text-[64px] max-hamburger:text-[45px] max-sm:text-[32px] max-hamburger:leading-[120%] max-hamburger:tracking-normal leading-[61.68px] font-['Graphikthin'] font-light text-[#E5E5E5] mb-[58px] max-sm:mb-[50px] tracking-[-2.56px]">
-          What our current partners are saying.{" "}
-        </h1>
-        <Success />
-      </section>{" "} */}
       <div className="py-[70.5px] flex justify-between max-md:flex-col gap-[20px] max-md:gap-[50px] relative z-20 px-[80px] max-sm:px-[20px] max-md:px-[40px]">
-        <div className="w-[675.77px] max-md:w-full">
-          <p className="text-[64px] max-hamburger:text-[45px] max-sm:text-[32px] max-hamburger:leading-[120%] mb-[41px] leading-[61.88px] tracking-[-2.56px] max-sm:tracking-tight font-['Graphikthin']">
+        <div className="w-[675.77px] widescreen:w-[800px] max-md:w-full">
+          <p className="text-[64px] widescreen:text-[74px] widestscreen:text-[84px] widescreen:leading-[120%] max-hamburger:text-[45px] max-sm:text-[32px] max-hamburger:leading-[120%] mb-[41px] leading-[61.88px] tracking-[-2.56px] max-sm:tracking-tight font-['Graphikthin']">
             Don’t settle for anyone other than the best.
           </p>
-          <p className="text-[20px] leading-[19.28px] tracking-[-0.2px] text-[#E5E5E5] font-['Graphikthin']">
+          <p className="text-[20px] widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[120%] leading-[19.28px] tracking-[-0.2px] text-[#E5E5E5] font-['Graphikthin']">
             Fill out the form or mail us at{" "}
             <a
               href="mailto:hire@parallel.com"
@@ -242,42 +233,42 @@ export default function Courses() {
             </a>
           </p>
         </div>
-        <div className="w-[442px] max-md:w-full flex flex-col z-20 gap-[32px] max-md:h-auto max-sm:gap-[20px] max-sm:p-[20px] h-[605px] px-[37px] py-[34px] rounded-[14px] bg-[#FFFFFF1A]">
+        <div className="w-[442px] widescreen:w-[40%] widestscreen:w-[35%] widescreen:h-auto max-md:w-full flex flex-col z-20 gap-[32px] max-md:h-auto max-sm:gap-[20px] max-sm:p-[20px] h-[605px] px-[37px] py-[34px] rounded-[14px] bg-[#FFFFFF1A]">
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] leading-[19.2px]">Name</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Name</p>
             <input
               type="text"
               onChange={(e) => setName(e.target.value)}
-              className="h-[54px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
+              className="h-[54px] widescreen:h-auto widescreen:py-[18px] widestscreen:py-[24px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
             />
           </div>
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] leading-[19.2px]">Company Name</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Company Name</p>
             <input
               type="text"
               onChange={(e) => setCompany_Name(e.target.value)}
-              className="h-[54px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
+              className="h-[54px] widescreen:h-auto widescreen:py-[18px] widestscreen:py-[24px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
             />
           </div>
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] leading-[19.2px]">Work Email</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Work Email</p>
             <input
               type="email"
               onChange={(e) => setWork_Email(e.target.value)}
-              className="h-[54px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
+              className="h-[54px] widescreen:h-auto widescreen:py-[18px] widestscreen:py-[24px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
             />
           </div>
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] leading-[19.2px]">Designation</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Designation</p>
             <input
               type="text"
               onChange={(e) => setDesignation(e.target.value)}
-              className="h-[54px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
+              className="h-[54px] widescreen:h-auto widescreen:py-[18px] widestscreen:py-[24px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
             />
           </div>
           <button
             onClick={handleSubmit}
-            className="w-full h-[53px] bg-[#30E29D] rounded-[8px] font-bold text-[#292929] text-[16px] font-[19.2px]"
+            className="w-full h-[53px] widescreen:h-auto widescreen:py-[12px] widestscreen:py-[18px] bg-[#30E29D] rounded-[8px] font-bold text-[#292929] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-[19.2px]"
           >
             Hire from us{" "}
           </button>

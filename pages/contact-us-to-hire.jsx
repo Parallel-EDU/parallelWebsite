@@ -60,7 +60,7 @@ export default function Contact() {
         <div className={style.backgroundbox}></div>
       </div>
       <main className="px-[80px] max-md:px-[40px] max-sm:px-[20px] flex justify-center pb-[79.28px] z-20 relative pt-[130.71px]">
-        <h1 className="text-[104.57px] leading-[106.66px] tracking-[-5.2px] font-['Graphikthin'] max-smalllaptop:text-[84px] max-sm:text-[64px] max-smalllaptop:leading-[102%] max-sm:text-left max-lg:w-full text-center text-[#E5E5E5] w-[799.41px]">
+        <h1 className="text-[104.57px] widescreen:text-[114px] widestscreen:text-[125px] widescreen:leading-[120%] widestscreen:w-[900px] leading-[106.66px] tracking-[-5.2px] font-['Graphikthin'] max-smalllaptop:text-[84px] max-sm:text-[64px] max-smalllaptop:leading-[102%] max-sm:text-left max-lg:w-full text-center text-[#E5E5E5] w-[799.41px]">
           Best candidates at zero cost{" "}
         </h1>
       </main>
@@ -69,65 +69,65 @@ export default function Contact() {
         <div className={style.backgroundbox2}></div>
       </div>
       <div className="py-[68.1px] max-sm:py-20 z-40 max-hamburger:px-[80px] max-md:px-[40px] max-sm:px-[20px] max-hamburger:w-full relative z-20 pl-[80px] gap-[34px] flex-col items-center flex pr-[79px]">
-        <h1 className="text-center text-[32px] leading-[37.76px] font-['Graphikthin'] tracking-[-0.64px] text-[#E5E5E5]">
+        <h1 className="text-center text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] leading-[37.76px] font-['Graphikthin'] tracking-[-0.64px] text-[#E5E5E5]">
           Get in touch with us{" "}
         </h1>
-        <div className="w-[442px] max-md:w-full flex flex-col z-40 gap-[32px] max-md:h-auto max-sm:gap-[20px] max-sm:p-[20px] h-[605px] px-[37px] py-[34px] rounded-[14px] bg-[#FFFFFF1A]">
+        <div className="w-[442px] max-md:w-full flex widescreen:w-[40%] widescreen:h-auto flex-col z-40 gap-[32px] max-md:h-auto max-sm:gap-[20px] max-sm:p-[20px] h-[605px] px-[37px] py-[34px] rounded-[14px] bg-[#FFFFFF1A]">
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] leading-[19.2px]">Name</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Name</p>
             <input
               type="text"
               onChange={(e) => setName(e.target.value)}
-              className="h-[54px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
+              className="h-[54px] widescreen:h-auto widescreen:py-[18px] widestscreen:py-[24px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
             />
           </div>
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] leading-[19.2px]">Company Name</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Company Name</p>
             <input
               type="text"
               onChange={(e) => setCompany_Name(e.target.value)}
-              className="h-[54px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
+              className="h-[54px] widescreen:h-auto widescreen:py-[18px] widestscreen:py-[24px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
             />
           </div>
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] leading-[19.2px]">Work Email</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Work Email</p>
             <input
               type="email"
               onChange={(e) => setWork_Email(e.target.value)}
-              className="h-[54px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
+              className="h-[54px] widescreen:h-auto widescreen:py-[18px] widestscreen:py-[24px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
             />
           </div>
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] leading-[19.2px]">Designation</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Designation</p>
             <input
               type="text"
               onChange={(e) => setDesignation(e.target.value)}
-              className="h-[54px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
+              className="h-[54px] widescreen:h-auto widescreen:py-[18px] widestscreen:py-[24px] rounded-[4px] border-[1px] border-white pl-[17.51px] bg-[transparent] placeholder-[#ffffff99] text-white"
             />
           </div>
           <button
             onClick={handleSubmit}
-            className="w-full h-[53px] bg-[#30E29D] rounded-[8px] font-bold text-[#292929] text-[16px] font-[19.2px]"
+            className="w-full h-[53px] bg-[#30E29D] widescreen:h-auto widescreen:py-[12px] widestscreen:py-[18px] rounded-[8px] font-bold text-[#292929] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-[19.2px]"
           >
             Hire from us{" "}
           </button>
         </div>
       </div>
       <div className="flex flex-col max-md:px-[40px] max-sm:py-0 max-sm:px-[20px] gap-[28.01px] z-20 relative items-center pt-[96.09px] pb-[121.9px]">
-        <h1 className="text-center text-[32px] leading-[30.84px] tracking-[-1.28px] font-['Graphikthin']">
+        <h1 className="text-center text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] leading-[30.84px] tracking-[-1.28px] font-['Graphikthin']">
           We love to see new mails in our inbox.
         </h1>
-        <div className="w-[294.22px] text-center relative z-[20]">
-          <span className="text-[16px] leading-[24px] text-white z-[20]">
+        <div className="w-[294.22px] widescreen:w-[400px] widestscreen:w-[450px] text-center relative z-[20]">
+          <span className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[24px] text-white z-[20]">
             Mail us at{" "}
           </span>
           <a
             href="mailto:hello@parallel.com"
-            className="text-[#30E29D] text-[16px] leading-[24px] z-[20] border-b-[0.5px] border-[#30E29D]"
+            className="text-[#30E29D] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[24px] z-[20] border-b-[0.5px] border-[#30E29D]"
           >
             hello@parallel.com
           </a>
-          <p className="text-[#FFFFFF99] text-[16px] leading-[24px] font-['Graphikthin']">
+          <p className="text-[#FFFFFF99] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[24px] font-['Graphikthin']">
             We will get back to you within 2 hours during working hours.
           </p>
         </div>

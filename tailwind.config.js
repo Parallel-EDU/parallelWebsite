@@ -20,6 +20,8 @@ module.exports = {
         'smalllaptop': '1200px',
         'bigphone': '520px',
         'smallphone': '380px',
+        'widescreen': '1900px',
+        'widestscreen': '2500px',
       },
     },
   },
