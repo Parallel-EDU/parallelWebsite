@@ -62,6 +62,7 @@ export default function About() {
                 className="relative z-20"
                 width={61.32}
                 height={61.32}
+                alt="Transparency"
               />
               <h1 className="text-[52.43px] widescreen:text-[62px] widestscreen:text-[72px] widescreen:leading-[120%] mt-[8px] leading-[50.53px] tracking-[-2.16px] text-[#E5E5E5] font-['Graphikthin'] text-center">
                 Transparency
@@ -76,6 +77,7 @@ export default function About() {
                   className="absolute max-lg:hidden z-20"
                   width={347.62}
                   height={659.89}
+                  alt="Transparency-bg-piller"
                 />
               </div>
             </div>
@@ -85,6 +87,7 @@ export default function About() {
                 className="relative z-20"
                 width={61.32}
                 height={61.32}
+                alt="Excellence-Star-Badge"
               />
               <h1 className="text-[52.43px] widescreen:text-[62px] widestscreen:text-[72px] widescreen:leading-[120%] mt-[8px] leading-[50.53px] tracking-[-2.16px] text-[#E5E5E5] font-['Graphikthin'] text-center">
                 Excellence
@@ -100,6 +103,7 @@ export default function About() {
                   className="absolute max-lg:hidden z-20"
                   width={347.62}
                   height={659.89}
+                  alt="Excellence-Union"
                 />
               </div>
             </div>
@@ -109,6 +113,7 @@ export default function About() {
                 className="relative z-20"
                 width={61.32}
                 height={61.32}
+                alt="Arrow-Double-Up"
               />
               <h1 className="text-[52.43px] widescreen:text-[62px] widestscreen:text-[72px] widescreen:leading-[120%] mt-[8px] leading-[50.53px] tracking-[-2.16px] text-[#E5E5E5] font-['Graphikthin'] text-center">
                 Progress
@@ -130,6 +135,7 @@ export default function About() {
                   className="absolute max-lg:hidden mixblend z-20"
                   width={347.62}
                   height={659.89}
+                  alt="Union"
                 />
               </div>
             </div>
@@ -150,24 +156,28 @@ export default function About() {
               className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
               width={193}
               height={82}
+              alt="razorpay-partner"
             />
             <Image
               src="/Frame 1000002730.png"
               className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
               width={193}
               height={82}
+              alt="zepto-partner"
             />
             <Image
               src="/Frame 1000002731.png"
               className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
               width={193}
               height={82}
+              alt="TATA-partner"
             />
             <Image
               src="/Frame 1000002732.png"
               className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
               width={193}
               height={82}
+              alt="Shiprocket-partner"
             />
             <Image
               src="/Frame 1000002733.png"
@@ -180,30 +190,35 @@ export default function About() {
               className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
               width={193}
               height={82}
+              alt="slice-partner"
             />
             <Image
               src="/Frame 1000002729 (1).png"
               className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
               width={193}
               height={82}
+              alt="pharmeasy-partner"
             />
             <Image
               src="/Frame 1000002732 (1).png"
               className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
               width={193}
               height={82}
+              alt="cultfit-partner"
             />
             <Image
               src="/Frame 1000002730 (1).png"
               className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
               width={193}
               height={82}
+              alt="delhivery-partner"
             />
             <Image
               src="/Frame 1000002731 (1).png"
               className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
               width={193}
               height={82}
+              alt="Charge-bee-partner"
             />
           </div>
         </section>

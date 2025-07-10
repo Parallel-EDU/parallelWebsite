@@ -13,7 +13,9 @@ export default function Footer() {
       <div className="flex justify-between max-sm:flex-col max-hamburger:gap-[50px] z-20">
         <div className="flex w-[390px] widescreen:w-[700px] max-sm:w-full flex-wrap gap-x-[27px] gap-y-[41.34px]">
           <div className="w-[190px] widescreen:w-[40%] widestscreen:w-[50%]">
-            <h1 className="text-[#E5E5E5] opacity-80 text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">Address</h1>
+            <h1 className="text-[#E5E5E5] opacity-80 text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
+              Address
+            </h1>
             <p className="mt-[12px] text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
               Wework Galaxy Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka
               560001
@@ -44,7 +46,9 @@ export default function Footer() {
             </p>
           </div>
           <div className="w-[144px] widescreen:w-full">
-            <h1 className="text-[#E5E5E5] opacity-80 text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">Contact us</h1>
+            <h1 className="text-[#E5E5E5] opacity-80 text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
+              Contact us
+            </h1>
             <p className="mt-[12px] text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid">
               hello@paralleledu.com
             </p>
@@ -116,7 +120,9 @@ export default function Footer() {
             </p>
           </div>
           <div className="w-[92px] widescreen:w-[200px] flex flex-col">
-            <h1 className="text-[#E5E5E5] opacity-80 text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">Company</h1>
+            <h1 className="text-[#E5E5E5] opacity-80 text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
+              Company
+            </h1>
             <Link
               href={"/about"}
               className="mt-[12px] hover:underline cursor-pointer hover:decoration-solid w-[92px] widescreen:w-full text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
@@ -173,6 +179,7 @@ export default function Footer() {
         className="pl-[0.05px] pr-[3.89px] w-full"
         width={139.45}
         height={26}
+        alt="Perallel Image"
       />
     </footer>
   );

@@ -165,7 +165,9 @@ export default function Fees() {
         </div>
         <div className="w-[442px] max-md:w-full max-sm:gap-20px max-sm:p-[20px] flex flex-col z-20 gap-[32px] h-[484px] px-[37px] py-[34px] rounded-[14px] bg-[#FFFFFF1A]">
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Name</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">
+              Name
+            </p>
             <input
               type="text"
               onChange={(e) => setName(e.target.value)}
@@ -174,7 +176,9 @@ export default function Fees() {
             />
           </div>
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Email</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">
+              Email
+            </p>
             <input
               type="email"
               onChange={(e) => setEmail(e.target.value)}
@@ -183,7 +187,9 @@ export default function Fees() {
             />
           </div>
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Phone Number</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">
+              Phone Number
+            </p>
             <input
               type="text"
               placeholder="Enter your phone number"

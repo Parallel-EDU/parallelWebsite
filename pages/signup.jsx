@@ -27,6 +27,7 @@ export default function Signup() {
           className=" w-full h-[844px] object-cover"
           width={139.45}
           height={26}
+          alt="Signup"
         />
       </div>
       <div className="w-[100%] flex flex-col gap-[66px] max-md:px-[40px] max-sm:px-[20px] max-lg:px-[80px] items-center z-20 relative font-['Graphikthin'] h-[643px]">

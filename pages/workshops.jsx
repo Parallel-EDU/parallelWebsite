@@ -61,12 +61,14 @@ export default function Workshop() {
           </Link>
         </div>
         <Image
+          alt="workshop"
           src="/workshop.png"
           className="w-[817.08px] widescreen:w-[40%] widescreen:h-auto max-xl:w-[600px] max-xl:top-[0px] max-smalllaptop:right-0 max-smalllaptop:left-[10%] max-hamburger:hidden max-smalllaptop:w-[60%] max-smalllaptop:relative absolute right-[20px] top-[-80px]"
           width={817.08}
           height={107.16}
         />
         <Image
+          alt="Rocket hero"
           src="/rocket.png"
           className="max-hamburger:block hidden w-[calc(100%-80px)] max-sm:w-full z-[10]"
           width={507.16}
@@ -83,10 +85,13 @@ export default function Workshop() {
           This workshop contains
         </p>
         <div className="flex gap-[84px] max-hamburger:flex-nowrap max-md:flex-wrap-reverse max-smalllaptop:flex-wrap-reverse max-smalllaptop:items-start mb-[80.56px] max-xl:ml-0 max-xl:gap-[32px] items-center">
-          <div className={`${style.coloredborder} w-[934px] max-xl:w-full widescreen:w-[1250px] widestscreen:w-[1550px]`}>
+          <div
+            className={`${style.coloredborder} w-[934px] max-xl:w-full widescreen:w-[1250px] widestscreen:w-[1550px]`}
+          >
             <div className="bg-black rounded-[9px]">
               <div className="flex w-full py-[31.82px] z-20 relative max-hamburger:flex-col max-hamburger:h-auto max-hamburger:w-full gap-[31.04px] h-[289px] bg-[#95FF931A] px-[18px] rounded-[10px]">
                 <Image
+                  alt="workshop contains"
                   src="/workshop2.svg"
                   width={107.16}
                   className="w-[290.96px] h-[225.36px] max-hamburger:h-auto max-hamburger:w-full"
@@ -125,6 +130,7 @@ export default function Workshop() {
             <div className="bg-black rounded-[9px]">
               <div className="flex py-[31.82px] max-hamburger:h-auto max-hamburger:w-full max-hamburger:flex-col gap-[31.04px] h-[289px] bg-[#FFD7071A] px-[18px] max-md:w-full rounded-[10px]">
                 <Image
+                  alt="Prompt Engineering"
                   src="/yellowpic.svg"
                   width={107.16}
                   className="w-[290.96px] max-hamburger:h-auto max-hamburger:w-full h-[225.36px]"
@@ -159,6 +165,7 @@ export default function Workshop() {
             <div className="bg-black rounded-[9px]">
               <div className="flex py-[26.5px] max-hamburger:flex-col max-hamburger:h-auto gap-[31.04px] h-[289px] w-[934px] max-xl:w-full widescreen:w-full bg-[#FF41D51A] px-[18px] max-md:w-full rounded-[10px]">
                 <Image
+                  alt=" Learning 10 free AI"
                   src="/workshop4.svg"
                   width={107.16}
                   className="w-[290.96px] mt-[5.52px] h-[225.36px]"
@@ -203,6 +210,7 @@ export default function Workshop() {
             <div className="bg-black rounded-[9px]">
               <div className="flex py-[31.82px] max-hamburger:flex-col gap-[31.04px] max-hamburger:h-auto w-full h-[289px] w-[934px] max-xl:w-full widescreen:w-full bg-[#07E1FF1A] px-[18px] max-md:w-full rounded-[10px]">
                 <Image
+                  alt="5-step approach to land a job."
                   src="/cube.svg"
                   width={107.16}
                   className="w-[290.96px] h-[225.36px]"
@@ -240,6 +248,7 @@ export default function Workshop() {
             <div className="bg-black rounded-[9px] h-full w-full">
               <div className={`${style.workshopcardgradientcolor1}`}>
                 <Image
+                  alt="Insider knowledge "
                   src="/abstract1.svg"
                   width={107.64}
                   className="w-[107.64px] ml-[26.86px] mt-[28.34px] h-[126.64px] mb-[34.06px]"
@@ -261,6 +270,7 @@ export default function Workshop() {
             <div className="bg-black rounded-[9px] h-full w-full">
               <div className={`${style.workshopcardgradientcolor1}`}>
                 <Image
+                  alt="Information on how AI"
                   src="/abstract1.svg"
                   width={107.64}
                   className="w-[107.64px] ml-[26.86px] mt-[28.34px] h-[126.64px] mb-[34.06px]"
@@ -282,6 +292,7 @@ export default function Workshop() {
             <div className="bg-black rounded-[9px] h-full w-full">
               <div className={`${style.workshopcardgradientcolor2}`}>
                 <Image
+                  alt="Introduction to Prompt Engineering"
                   src="/abstract3.svg"
                   width={180.64}
                   className="w-[180.64px] mt-[28.34px] h-[126.64px] mb-[34.06px]"
@@ -303,6 +314,7 @@ export default function Workshop() {
             <div className="bg-black rounded-[9px] h-full w-full">
               <div className={`${style.workshopcardgradientcolor2}`}>
                 <Image
+                  alt="4-step structured formula "
                   src="/abstract3.svg"
                   width={180.64}
                   className="w-[180.64px] mt-[28.34px] h-[126.64px] mb-[34.06px]"
@@ -328,6 +340,7 @@ export default function Workshop() {
                   width={118.64}
                   className="w-[118.64] ml-[27.5px] mt-[36px] h-[118.64] mb-[34.06px]"
                   height={118.64}
+                  alt="Use AI to write better code"
                 />
                 <h1 className="text-[24px] ml-[27.5px] max-sm:ml-[12px] max-sm:w-[calc(100%-20px)] widescreen:text-[30px] widestscreen:text-[36px] widescreen:w-full widescreen:leading-[120%] widescreen:h-[92px] max-sm:h-auto h-[60px] w-[340px] mb-[19.66px] leading-[30.64px] text-[#E0E0E0] tracking-[-0.24px] max-sm:w-[calc(100%-50px)] max-sm:h-auto">
                   Use AI to write better code{" "}
@@ -350,6 +363,7 @@ export default function Workshop() {
                   width={118.64}
                   className="w-[118.64] ml-[27.5px] mt-[36px] h-[118.64] mb-[34.06px]"
                   height={118.64}
+                  alt="Faster content curation "
                 />
                 <h1 className="text-[24px] ml-[27.5px] max-sm:ml-[12px] max-sm:w-[calc(100%-20px)] widescreen:text-[30px] widestscreen:text-[36px] widescreen:w-full widescreen:leading-[120%] widescreen:h-[92px] max-sm:h-auto h-[60px] w-[340px] mb-[19.66px] leading-[30.64px] text-[#E0E0E0] tracking-[-0.24px] max-sm:w-[calc(100%-50px)] max-sm:h-auto">
                   Faster content curation through ChatGPT, Gemini{" "}
@@ -372,6 +386,7 @@ export default function Workshop() {
                   width={118.64}
                   className="w-[118.64] ml-[27.5px] mt-[36px] h-[118.64] mb-[34.06px]"
                   height={118.64}
+                  alt="Generate breath-taking imagery using AI"
                 />
                 <h1 className="text-[24px] ml-[27.5px] max-sm:ml-[12px] max-sm:w-[calc(100%-20px)] widescreen:text-[30px] widestscreen:text-[36px] widescreen:w-full widescreen:leading-[120%] widescreen:h-[92px] max-sm:h-auto h-[60px] w-[340px] mb-[19.66px] leading-[30.64px] text-[#E0E0E0] tracking-[-0.24px] max-sm:w-[calc(100%-50px)] max-sm:h-auto">
                   Generate breath-taking imagery using AI{" "}
@@ -394,6 +409,7 @@ export default function Workshop() {
                   width={118.64}
                   className="w-[118.64] ml-[27.5px] mt-[36px] h-[118.64] mb-[34.06px]"
                   height={118.64}
+                  alt="Research on a topic accurately"
                 />
                 <h1 className="text-[24px] ml-[27.5px] max-sm:ml-[12px] max-sm:w-[calc(100%-20px)] widescreen:text-[30px] widestscreen:text-[36px] widescreen:w-full widescreen:leading-[120%] widescreen:h-[92px] max-sm:h-auto h-[60px] w-[340px] mb-[19.66px] leading-[30.64px] text-[#E0E0E0] tracking-[-0.24px] max-sm:w-[calc(100%-50px)] max-sm:h-auto">
                   Research on a topic accurately{" "}
@@ -416,6 +432,7 @@ export default function Workshop() {
                   width={118.64}
                   className="w-[118.64] ml-[27.5px] mt-[36px] h-[118.64] mb-[34.06px]"
                   height={118.64}
+                  alt="Build hire-worthy resume using AI"
                 />
                 <h1 className="text-[24px] ml-[27.5px] max-sm:ml-[12px] max-sm:w-[calc(100%-20px)] widescreen:text-[30px] widestscreen:text-[36px] widescreen:w-full widescreen:leading-[120%] widescreen:h-[92px] max-sm:h-auto h-[60px] w-[340px] mb-[19.66px] leading-[30.64px] text-[#E0E0E0] tracking-[-0.24px] max-sm:w-[calc(100%-50px)] max-sm:h-auto">
                   Build hire-worthy resume using AI{" "}
@@ -437,6 +454,7 @@ export default function Workshop() {
                   width={118.64}
                   className="w-[118.64] ml-[27.5px] mt-[36px] h-[118.64] mb-[34.06px]"
                   height={118.64}
+                  alt="Build a personal website only using prompts"
                 />
                 <h1 className="text-[24px] ml-[27.5px] max-sm:ml-[12px] max-sm:w-[calc(100%-20px)] widescreen:text-[30px] widestscreen:text-[36px] widescreen:w-full widescreen:leading-[120%] widescreen:h-[92px] max-sm:h-auto h-[60px] w-[340px] mb-[19.66px] leading-[30.64px] text-[#E0E0E0] tracking-[-0.24px] max-sm:w-[calc(100%-50px)] max-sm:h-auto">
                   Build a personal website only using prompts{" "}
@@ -459,6 +477,7 @@ export default function Workshop() {
                   width={118.64}
                   className="w-[118.64] ml-[27.5px] mt-[36px] h-[118.64] mb-[34.06px]"
                   height={118.64}
+                  alt="Curate your resume using AI{"
                 />
                 <h1 className="text-[24px] ml-[27.5px] max-sm:ml-[12px] max-sm:w-[calc(100%-20px)] widescreen:text-[30px] widestscreen:text-[36px] widescreen:w-full widescreen:leading-[120%] widescreen:h-[92px] max-sm:h-auto h-[60px] w-[340px] mb-[19.66px] leading-[30.64px] text-[#E0E0E0] tracking-[-0.24px] max-sm:w-[calc(100%-50px)] max-sm:h-auto">
                   Curate your resume using AI{" "}
@@ -480,6 +499,7 @@ export default function Workshop() {
                   width={118.64}
                   className="w-[118.64] ml-[27.5px] mt-[36px] h-[118.64] mb-[34.06px]"
                   height={118.64}
+                  alt="Easy and lesser known hacks to finding jobs through LinkedIn"
                 />
                 <h1 className="text-[24px] ml-[27.5px] max-sm:ml-[12px] max-sm:w-[calc(100%-20px)] widescreen:text-[30px] widestscreen:text-[36px] widescreen:w-full widescreen:leading-[120%] widescreen:h-[92px] max-sm:h-auto h-[60px] w-[355px] mb-[19.66px] leading-[30.64px] text-[#E0E0E0] tracking-[-0.24px] max-bigscreen:w-[calc(100%-50px)] max-sm:h-auto">
                   Easy and lesser known hacks to finding jobs through LinkedIn{" "}
@@ -502,6 +522,7 @@ export default function Workshop() {
                   width={118.64}
                   className="w-[118.64] ml-[27.5px] mt-[36px] h-[118.64] mb-[34.06px]"
                   height={118.64}
+                  alt="Networking with AI assistance"
                 />
                 <h1 className="text-[24px] ml-[27.5px] max-sm:ml-[12px] max-sm:w-[calc(100%-20px)] widescreen:text-[30px] widestscreen:text-[36px] widescreen:w-full widescreen:leading-[120%] widescreen:h-[92px] max-sm:h-auto h-[60px] w-[340px] mb-[19.66px] leading-[30.64px] text-[#E0E0E0] tracking-[-0.24px] max-sm:w-[calc(100%-50px)] max-sm:h-auto">
                   Networking with AI assistance{" "}
@@ -523,6 +544,7 @@ export default function Workshop() {
                   width={118.64}
                   className="w-[118.64] ml-[27.5px] mt-[36px] h-[118.64] mb-[34.06px]"
                   height={118.64}
+                  alt=" Write engaging emails in 4 step"
                 />
                 <h1 className="text-[24px] ml-[27.5px] max-sm:ml-[12px] max-sm:w-[calc(100%-20px)] widescreen:text-[30px] widestscreen:text-[36px] widescreen:w-full widescreen:leading-[120%] widescreen:h-[92px] max-sm:h-auto h-[60px] w-[340px] mb-[19.66px] leading-[30.64px] text-[#E0E0E0] tracking-[-0.24px] max-sm:w-[calc(100%-50px)] max-sm:h-auto">
                   Write engaging emails in 4 steps{" "}
@@ -546,6 +568,7 @@ export default function Workshop() {
           src="/Certificate.svg"
           width={1063}
           height={632}
+          alt="What your students will get"
           className="max-xl:w-full widescreen:w-[1280px] widestscreen:w-[1440px] widescreen:h-auto max-xl:h-auto"
         />
       </section>
@@ -581,42 +604,49 @@ export default function Workshop() {
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="college"
           />
           <Image
             src="/college1.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="JSSATE University"
           />
           <Image
             src="/college2.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="PES University"
           />
           <Image
             src="/college3.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="Reva University"
           />
           <Image
             src="/college4.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="Reva University"
           />
           <Image
             src="/college5.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="Ramahai University"
           />
           <Image
             src="/college6.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="RV University"
           />
           <Image
             src="/college7.png"
@@ -629,12 +659,14 @@ export default function Workshop() {
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="Ramahai University"
           />
           <Image
             src="/college9.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="Ramahai University"
           />
         </div>
       </section>
@@ -666,6 +698,7 @@ export default function Workshop() {
                   src="/book-reading--book-reading-learning.svg"
                   width={51.73}
                   height={51.73}
+                  alt="book-reading"
                 />
               </div>
               <h1 className="w-[340px] max-bigscreen:w-[310px] max-xl:w-[230px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px] widescreen:w-full max-bigscreen:w-[310px]">
@@ -690,6 +723,7 @@ export default function Workshop() {
                   src="/bag-suitcase-2--product-business-briefcase.svg"
                   width={51.73}
                   height={51.73}
+                  alt="bag-suitcase-2"
                 />
               </div>
               <h1 className="w-[340px] max-bigscreen:w-[310px] max-xl:w-[230px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px] widescreen:w-full max-bigscreen:w-[310px]">
@@ -713,6 +747,7 @@ export default function Workshop() {
                   src="/Calendar-3--Streamline-Ultimate.svg.svg"
                   width={60}
                   height={60}
+                  alt="Calendar-3"
                 />
               </div>
               <h1 className="w-[340px] max-bigscreen:w-[310px] max-xl:w-[230px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px] widescreen:w-full">
@@ -743,6 +778,7 @@ export default function Workshop() {
                 className=""
                 width={125.17}
                 height={123.97}
+                alt="Buchi Babu Muvva"
               />
               <h1 className="w-[340px] widescreen:w-full max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Buchi Babu Muvva
@@ -770,6 +806,7 @@ export default function Workshop() {
                 className=""
                 width={125.17}
                 height={123.97}
+                alt="Syed Saif"
               />
               <h1 className="w-[340px] widescreen:w-full max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Syed Saif
@@ -796,6 +833,7 @@ export default function Workshop() {
                 className=""
                 width={125.17}
                 height={123.97}
+                alt="Ajith Jagadish"
               />
               <h1 className="w-[340px] widescreen:w-full max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Ajith Jagadish

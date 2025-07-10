@@ -65,6 +65,7 @@ export default function Courses() {
           className="object-contain max-md:w-full"
           width={522}
           height={493}
+          alt="Contact Us"
         />
         <Link href={"/contact-us"} className="max-hamburger:block hidden">
           <button className="max-md:w-full w-[165px] mt-[20px] h-[53px] bg-[#30E29D] rounded-[8px] font-bold text-[#292929] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-[19.2px]">
@@ -85,60 +86,70 @@ export default function Courses() {
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="hire"
           />
           <Image
             src="/Frame 1000002730.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="hire"
           />
           <Image
             src="/Frame 1000002731.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="hire"
           />
           <Image
             src="/Frame 1000002732.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="hire"
           />
           <Image
             src="/Frame 1000002733.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="hire"
           />
           <Image
             src="/Frame 1000002734.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="hire"
           />
           <Image
             src="/Frame 1000002729 (1).png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="hire"
           />
           <Image
             src="/Frame 1000002732 (1).png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="hire"
           />
           <Image
             src="/Frame 1000002730 (1).png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="hire"
           />
           <Image
             src="/Frame 1000002731 (1).png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="hire"
           />
         </div>
       </section>
@@ -157,7 +168,7 @@ export default function Courses() {
             >
               <div className="bg-[#1F1F1F] w-[105px] py-[35px] pl-[26.39px] pr-[26.88px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
-                <Image src="/1.svg" width={51.73} height={51.73} />
+                <Image alt="top 1" src="/1.svg" width={51.73} height={51.73} />
               </div>
               <h1 className="w-[340px] widescreen:w-full widescreen:h-[92px] widestscreen:h-[100px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Hire only the top 1
@@ -182,7 +193,12 @@ export default function Courses() {
             >
               <div className="bg-[#1F1F1F] w-[105px] px-[26.63px] py-[26.13px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
-                <Image src="/brain.svg" width={51.73} height={51.73} />
+                <Image
+                  alt="brain"
+                  src="/brain.svg"
+                  width={51.73}
+                  height={51.73}
+                />
               </div>
               <h1 className="w-[340px] widescreen:w-full widescreen:h-[92px] widestscreen:h-[100px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Get candidates with relevant skills{" "}
@@ -202,7 +218,12 @@ export default function Courses() {
             >
               <div className="bg-[#1F1F1F] w-[105px] pt-[22.3px] pb-[21.7px] pl-[22.95px] pr-[22.05px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
-                <Image src="/multiuser.svg" width={60} height={60} />
+                <Image
+                  alt="multiuser"
+                  src="/multiuser.svg"
+                  width={60}
+                  height={60}
+                />
               </div>
               <h1 className="w-[340px] widescreen:w-full widescreen:h-[92px] widestscreen:h-[100px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Don’t worry about hiring the wrong people{" "}
@@ -235,7 +256,9 @@ export default function Courses() {
         </div>
         <div className="w-[442px] widescreen:w-[40%] widestscreen:w-[35%] widescreen:h-auto max-md:w-full flex flex-col z-20 gap-[32px] max-md:h-auto max-sm:gap-[20px] max-sm:p-[20px] h-[605px] px-[37px] py-[34px] rounded-[14px] bg-[#FFFFFF1A]">
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Name</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">
+              Name
+            </p>
             <input
               type="text"
               onChange={(e) => setName(e.target.value)}
@@ -243,7 +266,9 @@ export default function Courses() {
             />
           </div>
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Company Name</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">
+              Company Name
+            </p>
             <input
               type="text"
               onChange={(e) => setCompany_Name(e.target.value)}
@@ -251,7 +276,9 @@ export default function Courses() {
             />
           </div>
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Work Email</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">
+              Work Email
+            </p>
             <input
               type="email"
               onChange={(e) => setWork_Email(e.target.value)}
@@ -259,7 +286,9 @@ export default function Courses() {
             />
           </div>
           <div className="flex flex-col gap-[16px]">
-            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">Designation</p>
+            <p className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]">
+              Designation
+            </p>
             <input
               type="text"
               onChange={(e) => setDesignation(e.target.value)}

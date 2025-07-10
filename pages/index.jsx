@@ -142,6 +142,7 @@ export default function Home() {
                   className="w-[185px] h-[134px] widescreen:w-[50%] widescreen:h-auto widescreen:object-cover widescreen:rounded-[14px] max-bigphone:w-full"
                   width={185}
                   height={134}
+                  alt="Quick Batch"
                 />
                 <div>
                   <h1 className="text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[15.5px] text-[#E5E5E5] mb-[10px] italic font-semibold ">
@@ -172,77 +173,90 @@ export default function Home() {
                 className="py-[12.73px] widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={87.2}
                 height={18.54}
+                alt="razor Pay image"
               />
               <Image
                 src="/zepto.svg"
                 className="py-[12.73px] widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={56.05}
                 height={18.54}
+                alt="zepto"
               />
               <Image
                 src="/TATA_1mg_Logo 1.svg"
                 className="py-[13.12px] widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={79.82}
                 height={17.75}
+                alt="TATA"
               />
               <Image
                 src="/shiprocket_logo 1.svg"
                 className="py-[13.12px] widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={79.87}
                 height={17.75}
+                alt="shiprocket_logo"
               />
               <Image
                 src="/logoclient.svg"
                 className=" widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={64.03}
                 height={29.52}
+                alt="logoclient"
               />
               <Image
                 src="/Clip path group.svg"
                 className="py-[7.24px] widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={63.94}
                 height={20.89}
+                alt="Clip path group"
               />
               <Image
                 src="/image 60.svg"
                 className="py-[12.62px] widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={89.27}
                 height={17.75}
+                alt="TATA"
               />
               <Image
                 src="/razorimage.svg"
                 className="py-[12.73px] widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={87.2}
                 height={18.54}
+                alt="razor pay"
               />
               <Image
                 src="/zepto.svg"
                 className="py-[12.73px] widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={56.05}
                 height={18.54}
+                alt="zepto"
               />
               <Image
                 src="/TATA_1mg_Logo 1.svg"
                 className="py-[13.12px] widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={79.82}
                 height={17.75}
+                alt="TATA"
               />
               <Image
                 src="/shiprocket_logo 1.svg"
                 className="py-[13.12px] widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={79.87}
                 height={17.75}
+                alt="shiprocket_logo"
               />
               <Image
                 src="/logoclient.svg"
                 className=" widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={64.03}
                 height={29.52}
+                alt="logoclient"
               />
               <Image
                 src="/Clip path group.svg"
                 className="py-[7.24px] widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={63.94}
+                alt="Clip path group"
                 height={20.89}
               />
               <Image
@@ -250,6 +264,7 @@ export default function Home() {
                 className="py-[12.62px] widescreen:scale-[1.2] widestscreen:scale-[1.5] widescreen:h-auto"
                 width={89.27}
                 height={17.75}
+                alt="TATA"
               />
             </div>
           </div>
@@ -381,7 +396,12 @@ export default function Home() {
               }
             >
               {Role}
-              <Image src="/arrowdown.svg" width={19.98} height={10.75} />
+              <Image
+                alt="arrow"
+                src="/arrowdown.svg"
+                width={19.98}
+                height={10.75}
+              />
             </div>
             {isOpen && (
               <div className="bg-[#FFFFFFF2] absolute border-[1px] rounded-tl-[4px] rounded-[tr]-[4px] bottom-[54px] z-[22222] cursor-pointer">
@@ -418,7 +438,12 @@ export default function Home() {
           </button>
           {filled === "done" && (
             <div className="flex items-center justify-center gap-[12.87px] absolute w-[299px] z-30 max-sm:w-full max-sm:static h-[75px] bg-[white] rounded-[9px] bottom-0 left-[-347px]">
-              <Image src="/blackcheck.svg" width={34.57} height={34.57} />
+              <Image
+                alt="right check"
+                src="/blackcheck.svg"
+                width={34.57}
+                height={34.57}
+              />
               <p className="w-[210px] text-black text-[14px] leading-[21px] font-semibold">
                 Thanks for submitting the form! We’ll call you within 24 hours.
               </p>
@@ -432,6 +457,7 @@ export default function Home() {
       <section className="pt-[141px] pb-[140px] relative z-[41] max-md:py-20 max-bigscreen:pr-[80px] max-md:px-[40px] max-sm:px-[20px] max-hamburger:px-[40px] relative pl-[0px] pr-[80px] flex gap-[129px] max-hamburger:flex-col max-xl:gap-[50px]">
         <Image
           src="/qball.png"
+          alt="Quick Batch"
           className="w-[797px] widescreen:w-[50%] max-smalllaptop:w-[600px] h-auto max-hamburger:w-full max-md:w-full z-[2] relative h-auto"
           width={797}
           height={369}
@@ -458,7 +484,12 @@ export default function Home() {
               </button>
             </Link>
             <div className="flex gap-[4px] items-center">
-              <Image src="/profil.svg" width={28} height={28} />
+              <Image
+                alt="Enrolled students"
+                src="/profil.svg"
+                width={28}
+                height={28}
+              />
               <p className="text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] opacity-80 text-[#E0E0E0]">
                 Enrolled students:
               </p>
@@ -490,6 +521,7 @@ export default function Home() {
               <div className="bg-[#1F1F1F] w-[105px] pt-[26.26px] pb-[26.01px] pl-[26.39px] pr-[26.88px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
                 <Image
+                  alt="book-reading--book-reading-learning"
                   src="/book-reading--book-reading-learning.svg"
                   width={51.73}
                   height={51.73}
@@ -515,6 +547,7 @@ export default function Home() {
               <div className="bg-[#1F1F1F] w-[105px] px-[26.63px] py-[26.13px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
                 <Image
+                  alt="placement guarantee img"
                   src="/bag-suitcase-2--product-business-briefcase.svg"
                   width={51.73}
                   height={51.73}
@@ -547,6 +580,7 @@ export default function Home() {
               <div className="bg-[#1F1F1F] w-[105px] pt-[22.3px] pb-[21.7px] pl-[22.95px] pr-[22.05px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
                 <Image
+                  alt="Calendar"
                   src="/Calendar-3--Streamline-Ultimate.svg.svg"
                   width={60}
                   height={60}
@@ -585,6 +619,7 @@ export default function Home() {
           </Link>
         </div>
         <Image
+          alt="refer"
           src="/refer.png"
           className="mt-[18.06px] max-lg:w-full widescreen:w-[40%] widescreen:h-auto max-lg:h-auto max-smalllaptop:hidden max-md:block"
           width={522}
@@ -619,6 +654,7 @@ export default function Home() {
               <div className="bg-[#1F1F1F] w-[105px] px-[28.53px] py-[26.03px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
                 <Image
+                  alt="bag-rupee"
                   src="/bag-rupee--bag-payment-cash-money-finance.svg"
                   width={47.94}
                   height={51.93}
@@ -642,6 +678,7 @@ export default function Home() {
               <div className="bg-[#1F1F1F] w-[105px] px-[26.53px] py-[26.14px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
                 <Image
+                  alt="star-badge"
                   src="/star-badge--ribbon-reward-like-social-rating-media.svg"
                   width={51.93}
                   height={51.73}
@@ -666,6 +703,7 @@ export default function Home() {
               <div className="bg-[#1F1F1F] w-[105px] px-[26.63px] py-[26.13px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
                 <Image
+                  alt="bag-suitcase-2"
                   src="/bag-suitcase-2--product-business-briefcase.svg"
                   width={51.73}
                   height={51.73}
@@ -702,6 +740,7 @@ export default function Home() {
                 className={`${style.fscardbg} px-[18px] relative rounded-[10px] py-[20px]`}
               >
                 <Image
+                  alt="fullstack"
                   src="/fullstack.png"
                   className="w-[100%] relative z-20 h-auto"
                   width={377}
@@ -745,6 +784,7 @@ export default function Home() {
                 className={`${style.bmcardbg} px-[18px] relative rounded-[10px] py-[20px]`}
               >
                 <Image
+                  alt="Backend Mastery"
                   src="/backend.png"
                   className="w-[100%] relative z-20 h-auto"
                   width={377}
@@ -788,6 +828,7 @@ export default function Home() {
                 className={`${style.fmcardbg} px-[18px] relative rounded-[10px] py-[20px]`}
               >
                 <Image
+                  alt="Frontend Mastery"
                   src="/frontend.png"
                   className="w-[100%] relative z-20 h-auto"
                   width={377}
@@ -831,6 +872,7 @@ export default function Home() {
                 className={`${style.lccardbg} px-[18px] relative rounded-[10px] py-[20px]`}
               >
                 <Image
+                  alt="No-code, Low-code Development"
                   src="/Frame 46.png"
                   className="w-[100%] relative z-20 h-auto"
                   width={377}
@@ -878,6 +920,7 @@ export default function Home() {
                   className="w-[100%] relative z-20 h-auto"
                   width={377}
                   height={236}
+                  alt="Artificial Intelligence (AI/ML)"
                 />
                 <h1 className="mt-[20.87px] relative z-20 leading-[31.36px] mb-[17.13px] tracking-[-0.84px] font-['Graphikthin'] text-[#E5E5E5] text-[28px] widescreen:text-[34px] widestscreen:text-[40px] widescreen:leading-[108%]">
                   Artificial Intelligence (AI/ML){" "}
@@ -921,6 +964,7 @@ export default function Home() {
                   className="w-[100%] relative z-20 h-auto"
                   width={377}
                   height={236}
+                  alt="Data Analytics"
                 />
                 <h1 className="mt-[20.87px] leading-[31.36px] mb-[17.13px] tracking-[-0.84px] font-['Graphikthin'] text-[#E5E5E5] text-[28px] widescreen:text-[34px] widestscreen:text-[40px] widescreen:leading-[108%]">
                   Data Analytics{" "}
@@ -972,60 +1016,70 @@ export default function Home() {
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="partners"
           />
           <Image
             src="/Frame 1000002730.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="partners"
           />
           <Image
             src="/Frame 1000002731.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="partners"
           />
           <Image
             src="/Frame 1000002732.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="partners"
           />
           <Image
             src="/Frame 1000002733.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="partners"
           />
           <Image
             src="/Frame 1000002734.png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="partners"
           />
           <Image
             src="/Frame 1000002729 (1).png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="partners"
           />
           <Image
             src="/Frame 1000002732 (1).png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="partners"
           />
           <Image
             src="/Frame 1000002730 (1).png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="partners"
           />
           <Image
             src="/Frame 1000002731 (1).png"
             className="relative z-20 max-sm:w-[46%] widescreen:w-[15%]"
             width={193}
             height={82}
+            alt="partners"
           />
         </div>
       </section>
@@ -1054,6 +1108,7 @@ export default function Home() {
                 className=""
                 width={125.17}
                 height={123.97}
+                alt="Buchi Babu Muvva"
               />
               <h1 className="w-[340px] widescreen:w-full max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Buchi Babu Muvva
@@ -1081,6 +1136,7 @@ export default function Home() {
                 className=""
                 width={125.17}
                 height={123.97}
+                alt="Syed Saif"
               />
               <h1 className="w-[340px] widescreen:w-full max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Syed Saif
@@ -1107,6 +1163,7 @@ export default function Home() {
                 className=""
                 width={125.17}
                 height={123.97}
+                alt="Ajith Jagadish"
               />
               <h1 className="w-[340px] widescreen:w-full max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Ajith Jagadish
@@ -1131,6 +1188,7 @@ export default function Home() {
           className={`absolute max-md:hidden z-20 top-[-75px] bg-transparent pl-[78.14px] h-[747.06px] w-[100%] pr-[76.27px] ${style.imagecontainer}`}
           width={107.16}
           height={107.16}
+          alt="In-demand skills that guarantee jobs"
         />
         <h1 className="w-[665.36px] widestscreen:w-[870px] max-sm:w-full z-20 relative max-sm:px-[20px] font-['Graphikthin'] text-[64px] widescreen:text-[74px] widestscreen:text-[84px]  widescreen:leading-[120%] max-hamburger:text-[45px] max-sm:text-[32px] max-hamburger:leading-[120%] max-smallphone:tracking-tight leading-[61.68px] tracking-[-2.56px] max-sm:tracking-tight text-[#E5E5E5] text-center">
           In-demand skills that guarantee jobs{" "}
@@ -1167,12 +1225,14 @@ export default function Home() {
           className="w-[817.08px] widescreen:w-[40%] max-xl:w-[600px] max-xl:top-[0px] max-smalllaptop:right-0 max-smalllaptop:left-[10%] max-hamburger:hidden max-smalllaptop:w-[60%] max-smalllaptop:relative absolute right-[20px] top-[-80px]"
           width={817.08}
           height={107.16}
+          alt="workshop"
         />
         <Image
           src="/rocket.png"
           className="max-hamburger:block hidden w-[calc(100%-80px)] max-sm:w-full z-[10]"
           width={507.16}
           height={107.16}
+          alt="rocket"
         />
       </section>
       <Upskill />

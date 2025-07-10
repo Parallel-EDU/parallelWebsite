@@ -64,6 +64,7 @@ export default function Courses() {
               <div className="bg-[#1F1F1F] w-[105px] pt-[26.26px] pb-[26.01px] pl-[26.39px] pr-[26.88px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
                 <Image
+                  alt="Calendar-3"
                   src="/Calendar-3--Streamline-Ultimate.svg.svg"
                   width={51.73}
                   height={51.73}
@@ -86,7 +87,12 @@ export default function Courses() {
             >
               <div className="bg-[#1F1F1F] w-[105px] px-[26.63px] py-[26.13px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
-                <Image src="/discount.svg" width={51.73} height={51.73} />
+                <Image
+                  alt="discount"
+                  src="/discount.svg"
+                  width={51.73}
+                  height={51.73}
+                />
               </div>
               <h1 className="w-[340px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Pay only a small percentage of your CTC{" "}
@@ -109,7 +115,7 @@ export default function Courses() {
             >
               <div className="bg-[#1F1F1F] w-[105px] pt-[22.3px] pb-[21.7px] pl-[22.95px] pr-[22.05px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
-                <Image src="/pause.svg" width={60} height={60} />
+                <Image alt="pause" src="/pause.svg" width={60} height={60} />
               </div>
               <h1 className="w-[340px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Stop paying us if you are not working{" "}

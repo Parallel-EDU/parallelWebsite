@@ -45,6 +45,7 @@ export default function Courses() {
                   className="w-[100%] relative z-20 h-auto"
                   width={377}
                   height={236}
+                  alt="Full Stack Development"
                 />
                 <h1 className="mt-[20.87px] leading-[31.36px] mb-[17.13px] tracking-[-0.84px] font-['Graphikthin'] text-[#E5E5E5] text-[28px] widescreen:text-[34px] widestscreen:text-[40px] widescreen:leading-[108%]">
                   Full Stack Development{" "}
@@ -88,6 +89,7 @@ export default function Courses() {
                   className="w-[100%] relative z-20 h-auto"
                   width={377}
                   height={236}
+                  alt="Backend Mastery"
                 />
                 <h1 className="mt-[20.87px] leading-[31.36px] mb-[17.13px] tracking-[-0.84px] font-['Graphikthin'] text-[#E5E5E5] text-[28px] widescreen:text-[34px] widestscreen:text-[40px] widescreen:leading-[108%]">
                   Backend Mastery{" "}
@@ -131,6 +133,7 @@ export default function Courses() {
                   className="w-[100%] relative z-20 h-auto"
                   width={377}
                   height={236}
+                  alt="Frontend Mastery"
                 />
                 <h1 className="mt-[20.87px] leading-[31.36px] mb-[17.13px] tracking-[-0.84px] font-['Graphikthin'] text-[#E5E5E5] text-[28px] widescreen:text-[34px] widestscreen:text-[40px] widescreen:leading-[108%]">
                   Frontend Mastery{" "}
@@ -174,6 +177,7 @@ export default function Courses() {
                   className="w-[100%] relative z-20 h-auto"
                   width={377}
                   height={236}
+                  alt="No-code, Low-code Development"
                 />
                 <h1 className="mt-[20.87px] leading-[31.36px] mb-[17.13px] tracking-[-0.84px] font-['Graphikthin'] text-[#E5E5E5] text-[28px] widescreen:text-[34px] widestscreen:text-[40px] widescreen:leading-[108%]">
                   No-code, Low-code Development{" "}
@@ -217,6 +221,7 @@ export default function Courses() {
                   className="w-[100%] relative z-20 h-auto"
                   width={377}
                   height={236}
+                  alt="Artificial Intelligence (AI/ML)"
                 />
                 <h1 className="mt-[20.87px] relative z-20 leading-[31.36px] mb-[17.13px] tracking-[-0.84px] font-['Graphikthin'] text-[#E5E5E5] text-[28px] widescreen:text-[34px] widestscreen:text-[40px] widescreen:leading-[108%]">
                   Artificial Intelligence (AI/ML){" "}
@@ -260,6 +265,7 @@ export default function Courses() {
                   className="w-[100%] relative z-20 h-auto"
                   width={377}
                   height={236}
+                  alt="Data Analytics"
                 />
                 <h1 className="mt-[20.87px] leading-[31.36px] mb-[17.13px] tracking-[-0.84px] font-['Graphikthin'] text-[#E5E5E5] text-[28px] widescreen:text-[34px] widestscreen:text-[40px] widescreen:leading-[108%]">
                   Data Analytics{" "}

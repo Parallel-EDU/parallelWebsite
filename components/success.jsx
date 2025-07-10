@@ -18,23 +18,23 @@ export default function Success() {
           { x: -150 },
           { ease: Linear.easeNone, x: -2103, duration: 20 }
         );
-      } else if (width < 640) {
-        gsap
-          .timeline({ repeat: -1 })
-          .fromTo(
-            successanimation.current,
-            { x: -150 },
-            { ease: Linear.easeNone, x: -1508, duration: 20 }
-          );
-      } else if (width >= 1900) {
-        gsap
-          .timeline({ repeat: -1 })
-          .fromTo(
-            successanimation.current,
-            { x: -150 },
-            { ease: Linear.easeNone, x: -2488, duration: 20 }
-          );
-      }
+    } else if (width < 640) {
+      gsap
+        .timeline({ repeat: -1 })
+        .fromTo(
+          successanimation.current,
+          { x: -150 },
+          { ease: Linear.easeNone, x: -1508, duration: 20 }
+        );
+    } else if (width >= 1900) {
+      gsap
+        .timeline({ repeat: -1 })
+        .fromTo(
+          successanimation.current,
+          { x: -150 },
+          { ease: Linear.easeNone, x: -2488, duration: 20 }
+        );
+    }
     return () => {
       tl.kill();
     };
@@ -45,7 +45,9 @@ export default function Success() {
         ref={successanimation}
         className="flex gap-[20px] ml-20 max-sm:ml-[25px] max-md:ml-[50px] w-[5880px] widescreen:w-[7000px]"
       >
-        <div className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}>
+        <div
+          className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
+        >
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
@@ -55,6 +57,7 @@ export default function Success() {
                 className="max-sm:w-[80px] max-sm:h-[80px]"
                 width={93.71}
                 height={93.71}
+                alt="Ravi Teja"
               />
               <div>
                 <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
@@ -77,7 +80,9 @@ export default function Success() {
             </p>
           </div>
         </div>
-        <div className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}>
+        <div
+          className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
+        >
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
@@ -88,6 +93,7 @@ export default function Success() {
                 className="max-sm:w-[80px] max-sm:h-[80px]"
                 width={93.71}
                 height={93.71}
+                alt="Kruthi R"
               />
               <div>
                 <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
@@ -111,7 +117,9 @@ export default function Success() {
             </p>
           </div>
         </div>
-        <div className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}>
+        <div
+          className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
+        >
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
@@ -122,6 +130,7 @@ export default function Success() {
                 className="max-sm:w-[80px] max-sm:h-[80px]"
                 width={93.71}
                 height={93.71}
+                alt="Surya Narayan"
               />
               <div>
                 <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
@@ -144,7 +153,9 @@ export default function Success() {
             </p>
           </div>
         </div>
-        <div className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}>
+        <div
+          className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
+        >
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
@@ -155,6 +166,7 @@ export default function Success() {
                 className="max-sm:w-[80px] max-sm:h-[80px]"
                 width={93.71}
                 height={93.71}
+                alt="Lakshmi JT"
               />
               <div>
                 <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
@@ -178,7 +190,9 @@ export default function Success() {
             </p>
           </div>
         </div>
-        <div className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}>
+        <div
+          className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
+        >
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
@@ -189,6 +203,7 @@ export default function Success() {
                 className="max-sm:w-[80px] max-sm:h-[80px]"
                 width={93.71}
                 height={93.71}
+                alt="Ravi Teja"
               />
               <div>
                 <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
@@ -211,7 +226,9 @@ export default function Success() {
             </p>
           </div>
         </div>
-        <div className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}>
+        <div
+          className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
+        >
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
@@ -222,6 +239,7 @@ export default function Success() {
                 className="max-sm:w-[80px] max-sm:h-[80px]"
                 width={93.71}
                 height={93.71}
+                alt="Kruthi R"
               />
               <div>
                 <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
@@ -245,7 +263,9 @@ export default function Success() {
             </p>
           </div>
         </div>
-        <div className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}>
+        <div
+          className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
+        >
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
@@ -256,6 +276,7 @@ export default function Success() {
                 className="max-sm:w-[80px] max-sm:h-[80px]"
                 width={93.71}
                 height={93.71}
+                alt="Surya Narayan"
               />
               <div>
                 <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
@@ -278,7 +299,9 @@ export default function Success() {
             </p>
           </div>
         </div>
-        <div className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}>
+        <div
+          className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
+        >
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
@@ -289,6 +312,7 @@ export default function Success() {
                 className="max-sm:w-[80px] max-sm:h-[80px]"
                 width={93.71}
                 height={93.71}
+                alt="Lakshmi JT"
               />
               <div>
                 <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
@@ -312,7 +336,9 @@ export default function Success() {
             </p>
           </div>
         </div>
-        <div className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}>
+        <div
+          className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
+        >
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
@@ -323,6 +349,7 @@ export default function Success() {
                 className="max-sm:w-[80px] max-sm:h-[80px]"
                 width={93.71}
                 height={93.71}
+                alt="Ravi Teja"
               />
               <div>
                 <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
@@ -345,7 +372,9 @@ export default function Success() {
             </p>
           </div>
         </div>
-        <div className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}>
+        <div
+          className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
+        >
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
@@ -356,6 +385,7 @@ export default function Success() {
                 className="max-sm:w-[80px] max-sm:h-[80px]"
                 width={93.71}
                 height={93.71}
+                alt=" Kruthi R"
               />
               <div>
                 <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
@@ -379,7 +409,9 @@ export default function Success() {
             </p>
           </div>
         </div>
-        <div className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}>
+        <div
+          className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
+        >
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
@@ -390,6 +422,7 @@ export default function Success() {
                 className="max-sm:w-[80px] max-sm:h-[80px]"
                 width={93.71}
                 height={93.71}
+                alt="Surya Narayan"
               />
               <div>
                 <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
@@ -412,7 +445,9 @@ export default function Success() {
             </p>
           </div>
         </div>
-        <div className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}>
+        <div
+          className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
+        >
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
@@ -423,6 +458,7 @@ export default function Success() {
                 className="max-sm:w-[80px] max-sm:h-[80px]"
                 width={93.71}
                 height={93.71}
+                alt="Lakshmi JT"
               />
               <div>
                 <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">

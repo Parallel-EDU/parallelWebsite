@@ -27,7 +27,7 @@ export default function Courses() {
   };
   return (
     <>
-    <Head>
+      <Head>
         <title>ParallelEdu | Refer Us</title>
         <link rel="canonical" href="https://www.paralleledu.com/refer-us" />
         <meta
@@ -74,6 +74,7 @@ export default function Courses() {
                 className="w-[152px] flex justify-center items-center gap-[8px] max-hamburger:hidden h-[53px] bg-[#30E29D] rounded-[8px] font-bold text-[#292929] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-[19.2px]"
               >
                 <Image
+                  alt="material-symbols"
                   src="/material-symbols_check.svg"
                   width={24}
                   height={24}
@@ -97,6 +98,7 @@ export default function Courses() {
             <>
               <div className="flex gap-[13px] items-start max-hamburger:hidden   max-md:h-auto max-smallphone:gap-[8px] w-[532px] h-[83px] rounded-[8px] bg-white px-[15px] pt-[17px] mt-[14px] max-md:w-full max-md: p-[15px]">
                 <Image
+                  alt="material-symbols"
                   src="/material-symbols_info-outline.svg"
                   width={24}
                   height={24}
@@ -116,6 +118,7 @@ export default function Courses() {
           )}
         </div>
         <Image
+          alt="referpage"
           src="/referpage.png"
           className="object-contain max-md:w-full"
           width={522}
@@ -196,13 +199,20 @@ export default function Courses() {
           </p>
         </div>
         <div className="flex max-hamburger:flex-wrap max-hamburger:justify-center gap-[21px] mt-[50.91px]">
-          <div className={`${style.container} w-[33%] max-hamburger:w-[45%] max-md:w-full`}>
+          <div
+            className={`${style.container} w-[33%] max-hamburger:w-[45%] max-md:w-full`}
+          >
             <div
               className={`pl-[28px] h-[404px] max-bigscreen:h-[440px] max-xl:h-[400px] max-md:h-auto pb-[41.87px] pr-[29.85px] pt-[31.57px] rounded-[8px] ${style.bordergradient}`}
             >
               <div className="bg-[#1F1F1F] w-[105px] pt-[26.26px] pb-[26.01px] pl-[26.39px] pr-[26.88px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
-                <Image src="/multiuser.svg" width={51.73} height={51.73} />
+                <Image
+                  alt="multiuser"
+                  src="/multiuser.svg"
+                  width={51.73}
+                  height={51.73}
+                />
               </div>
               <h1 className="w-[340px] widescreen:w-full widescreen:h-[92px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Make learning more fun with your friends{" "}
@@ -214,7 +224,9 @@ export default function Courses() {
               </p>
             </div>
           </div>
-          <div className={`${style.container} w-[33%] max-hamburger:w-[45%] max-md:w-full`}>
+          <div
+            className={`${style.container} w-[33%] max-hamburger:w-[45%] max-md:w-full`}
+          >
             <div
               className={`pl-[28px] h-[404px] max-bigscreen:h-[440px] max-xl:h-[400px] max-md:h-auto pb-[41.87px] pr-[29.85px] pt-[31.57px] rounded-[8px] ${style.bordergradient}`}
             >
@@ -232,13 +244,20 @@ export default function Courses() {
               </p>
             </div>
           </div>
-          <div className={`${style.container} w-[33%] max-hamburger:w-[45%] max-md:w-full`}>
+          <div
+            className={`${style.container} w-[33%] max-hamburger:w-[45%] max-md:w-full`}
+          >
             <div
               className={`pl-[28px] h-[404px] max-bigscreen:h-[440px] max-xl:h-[400px] max-md:h-auto pb-[41.87px] pr-[29.85px] pt-[31.57px] rounded-[8px] ${style.bordergradient}`}
             >
               <div className="bg-[#1F1F1F] w-[105px] pt-[22.3px] pb-[21.7px] pl-[22.95px] pr-[22.05px] border-[1px] rounded-[6px] border-[#FFFFFF66] ">
                 {" "}
-                <Image src="/dottedsquare.svg" width={60} height={60} />
+                <Image
+                  alt="dottedsquare"
+                  src="/dottedsquare.svg"
+                  width={60}
+                  height={60}
+                />
               </div>
               <h1 className="w-[340px] widescreen:w-full widescreen:h-[92px] max-bigscreen:w-[310px] max-xl:w-[250px] max-md:w-full max-xl:mt-[30px] font-['Graphikthin'] font-normal mt-[53.05px] mb-[18.16px] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-xl:text-[24px] max-xl:leading-[120%] leading-[40.32px] tracking-[-0.32px]">
                 Get a slight boost in placement preference{" "}
@@ -258,7 +277,9 @@ export default function Courses() {
           </p>
         </div>
         <div className="flex max-hamburger:flex-wrap max-hamburger:justify-center gap-[21px] mt-[50px]">
-          <div className={`${style.container} w-[33%] max-hamburger:w-[45%] max-md:w-full`}>
+          <div
+            className={`${style.container} w-[33%] max-hamburger:w-[45%] max-md:w-full`}
+          >
             <div
               className={`pl-[28.54px] max-md:h-auto h-[242px] max-xl:h-[262px] max-lg:h-[280px] pb-[29.41px] pr-[29.31px] pt-[31.28px] rounded-[8px] ${style.bordergradient}`}
             >
@@ -271,7 +292,9 @@ export default function Courses() {
               </p>
             </div>
           </div>
-          <div className={`${style.container} w-[33%] max-hamburger:w-[45%] max-md:w-full`}>
+          <div
+            className={`${style.container} w-[33%] max-hamburger:w-[45%] max-md:w-full`}
+          >
             <div
               className={`pl-[28.54px] max-md:h-auto h-[242px] max-xl:h-[262px] max-lg:h-[280px] pb-[29.41px] pr-[29.31px] pt-[31.28px] rounded-[8px] ${style.bordergradient}`}
             >
@@ -283,7 +306,9 @@ export default function Courses() {
               </p>
             </div>
           </div>
-          <div className={`${style.container} w-[33%] max-hamburger:w-[45%] max-md:w-full`}>
+          <div
+            className={`${style.container} w-[33%] max-hamburger:w-[45%] max-md:w-full`}
+          >
             <div
               className={`pl-[28.54px] w-[33%] max-md:w-full max-hamburger:w-[45%] max-md:h-auto h-[242px] max-xl:h-[262px] max-lg:h-[280px] max-lg:h-[280px] pb-[29.41px] pr-[29.31px] pt-[31.28px] rounded-[8px] ${style.bordergradient}`}
             >

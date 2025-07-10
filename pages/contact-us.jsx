@@ -145,7 +145,12 @@ export default function Contact() {
                 className="pl-[17.51px] widescreen:w-full pr-[18px] max-hamburger:w-full flex justify-between h-[54px] widescreen:h-auto widescreen:py-[18px] widestscreen:py-[24px] bg-[transparent] text-[#ffffff99] cursor-pointer w-[368px] border-[1px] border-white rounded-[6px] py-[16px] text-[17.95px] leading-[21.54px] max-smallphone:py-0 max-smallphone:flex max-smallphone:items-center"
               >
                 <p>{iam}</p>
-                <Image src="/arrowdown.svg" width={19.98} height={10.75} />
+                <Image
+                  alt="arrow"
+                  src="/arrowdown.svg"
+                  width={19.98}
+                  height={10.75}
+                />
               </div>
               {iamOpen && (
                 <div className="bg-[#FFFFFF] max-hamburger:w-full absolute border-[1px] rounded-tl-[4px] rounded-[tr]-[4px] top-[89px] z-[22222] cursor-pointer">
