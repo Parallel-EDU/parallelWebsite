@@ -722,7 +722,9 @@ export default function Home() {
                   <p className="text-[#FFFFFF] leading-[28.8px] font-['General Sans'] text-[24px] widescreen:text-[30px] widestscreen:text-[35px]">
                     ₹29,999
                   </p>
-                  <p className="text-[#FF4747] text-sm widescreen:text-base widestscreen:text-[20px]">-50%</p>
+                  <p className="text-[#FF4747] text-sm widescreen:text-base widestscreen:text-[20px]">
+                    -50%
+                  </p>
                 </div>
                 <p className="line-through mt-[3px] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-['Graphikthin'] leading-[19.2px] opacity-60 text-[#ECECEC]">
                   ₹60,000
@@ -763,7 +765,9 @@ export default function Home() {
                   <p className="text-[#FFFFFF] leading-[28.8px] font-['General Sans'] text-[24px] widescreen:text-[30px] widestscreen:text-[35px]">
                     ₹9,999
                   </p>
-                  <p className="text-[#FF4747] text-sm widescreen:text-base widestscreen:text-[20px]">-33%</p>
+                  <p className="text-[#FF4747] text-sm widescreen:text-base widestscreen:text-[20px]">
+                    -33%
+                  </p>
                 </div>
                 <p className="line-through mt-[3px] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-['Graphikthin'] leading-[19.2px] opacity-60 text-[#ECECEC]">
                   ₹15,000
@@ -804,7 +808,9 @@ export default function Home() {
                   <p className="text-[#FFFFFF] leading-[28.8px] font-['General Sans'] text-[24px] widescreen:text-[30px] widestscreen:text-[35px]">
                     ₹9,999
                   </p>
-                  <p className="text-[#FF4747] text-sm widescreen:text-base widestscreen:text-[20px]">-33%</p>
+                  <p className="text-[#FF4747] text-sm widescreen:text-base widestscreen:text-[20px]">
+                    -33%
+                  </p>
                 </div>
                 <p className="line-through mt-[3px] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-['Graphikthin'] leading-[19.2px] opacity-60 text-[#ECECEC]">
                   ₹15,000
