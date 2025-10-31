@@ -1,8 +1,9 @@
 // app/components/StudentProjects.jsx
 "use client";
 
-import { Link } from "lucide-react";
+// import { Link } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function StudentProjects() {
   return (
