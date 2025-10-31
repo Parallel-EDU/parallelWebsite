@@ -57,32 +57,38 @@ const HeroBoot = () => {
   return (
     <>
       <div className="overflowhidden">
-        {/* <div className="absolute z-20 w-[100%] h-[1022px] top-[0px] overflow-hidden">
-          <div className={style.backgroundcolor}></div>
-        </div> */}
+        <div className="absolute z-20 w-[100%] h-[1022px] top-[0px] overflow-hidden">
+          <div className={style.backgroundbox123}></div>
+        </div>
         {/* <div className="absolute z-20 w-[120%] h-[822px] top-[622px] -right-20 overflow-hidden">
           <div className={style.backgroundcolor3}></div>
         </div> */}
-        <div className="absolute z-20 w-[100%] h-[1022px] top-[622px] right-0 overflow-hidden">
+        {/* <div className="absolute z-20 w-[100%] h-[1022px] top-[622px] right-0 overflow-hidden">
           <div className={style.backgroundcolor2}></div>
-        </div>
-        <div className="absolute w-[100%] h-[1022px] top-0 left-0 overflow-hidden">
+        </div> */}
+        {/* <div className="absolute w-[100%] h-[1022px] top-0 left-0 overflow-hidden">
           <div className={style.backgroundbox}></div>
-        </div>
+        </div> */}
         <main className="px-[80px] z-50 relative max-md:px-[40px] max-sm:px-[20px] max-md:pt-[50px] max-sm:pb-0 max-sm:pt-[30px] flex justify-between max-hamburger:items-center max-smalllaptop:gap-[20px] max-hamburger:flex-col pb-[29.5px] pt-[76.5px]">
           <div className="max-hamburger:w-full widescreen:w-[60%] max-xl:w-[73%]">
             <div className="relative z-30 w-full">
-              <h1 className="w-[685.41px] widescreen:w-full text-[74.07px] widescreen:text-[84px] widestscreen:text-[94px] font-medium max-hamburger:w-[100%]  max-smalllaptop:w-[510px] max-bigscreen:w-[676px] max-smalllaptop:tracking-[-4.5px] max-smalllaptop:text-[66px] max-sm:text-[60px] max-smallphone:text-[42px] max-sm:tracking-normal max-sm:mb-[12px] max-smalllaptop:leading-[102%] font-light tracking-[-3.5px] leading-[80.73px] text-[#E5E5E5] font-['Graphikmedium'] font-light mb-[20px]">
-                Upskill and get placed at
-                <span className="font-['Graphik'] font-semibold">
+              <h1 className="w-[685.41px] widescreen:w-full text-[56.07px] widescreen:text-[84px] widestscreen:text-[94px] font-medium max-hamburger:w-[100%]  max-smalllaptop:w-[510px] max-bigscreen:w-[676px] max-smalllaptop:tracking-[-4.5px] max-smalllaptop:text-[66px] max-sm:text-[60px] max-smallphone:text-[42px] max-sm:tracking-normal max-sm:mb-[12px] max-smalllaptop:leading-[102%] font-light tracking-[-3.5px] leading-[65.73px] text-[#E5E5E5] font-['Graphikmedium'] font-light mb-[20px]">
+                Become a Job-Ready Full Stack Developer and Get Placed in Just
+                6-9 Months
+                {/* <span className="font-['Graphik'] font-semibold">
                   {" "}
                   an affordable price.
-                </span>
+                </span> */}
               </h1>
-              <p className="text-[16px]  mb-10 mt-4  font-[400] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] mb[12px] w-[80%] leading-[24px] text-[#C7C7C7]">
-                Master Full Stack Development, Data Science, and DevOps with
-                hands-on projects, expert mentorship, and real placement
-                support.
+              <p className="text-[16px] font-['Graphikthin']  mb-10 mt-4  font-[400] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] mb[12px] w-[80%] leading-[24px] text-[#C7C7C7]">
+                Master{" "}
+                <span className="font-semibold font-['Graphik']">
+                  Full Stack Development, Data Structures & Algorithms, System
+                  Design, and AI-powered projects.{" "}
+                </span>{" "}
+                Build real-world applications, gain mentorship from industry
+                engineers, and graduate with a portfolio that impresses top tech
+                companies.
               </p>
               <Link href="/signup">
                 <button className="w-[128px] mt-10 h-[53px] widescreen:h-auto widescreen:py-[12px] widescreen:py-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-[8px] font-[500]  text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-[16px]">

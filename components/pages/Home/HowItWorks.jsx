@@ -212,7 +212,7 @@ function SVGPolyhedron() {
         stroke="#30FF51"
         stroke-width="0.440917"
         stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
