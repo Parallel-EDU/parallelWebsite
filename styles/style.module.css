@@ -3,7 +3,7 @@
   width: 914.18px;
   position: absolute;
   top: 0;
-  right: -142.12px;
+  right: -442.12px;
   height: 822px;
 }
 .backgroundcolor2 {
@@ -28,6 +28,19 @@
   position: absolute;
   top: 101px;
   right: 0px;
+  height: 710px;
+  background-repeat: no-repeat;
+  mix-blend-mode: color-dodge;
+  z-index: 22;
+}
+
+.backgroundbox2 {
+  background-image: url("../public/full-grid.svg");
+  background-size: contain;
+  width: 100%;
+  position: absolute;
+  top: 101px;
+  left: 0px;
   height: 710px;
   background-repeat: no-repeat;
   mix-blend-mode: color-dodge;
