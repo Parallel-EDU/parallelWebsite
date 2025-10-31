@@ -56,6 +56,32 @@ export default function Home() {
     };
   }, []);
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (Name === "") {
+      setfilled("name");
+    } else if (Email === "") {
+      setfilled("email");
+    } else if (Phonenumber === "") {
+      setfilled("phone");
+    } else if (Role === "Select an option") {
+      setfilled("I am");
+    } else {
+      const data = {
+        Name,
+        Email,
+        Phonenumber,
+        Role,
+      };
+      try {
+        const response = await axios.post("/api/home", data);
+        setfilled("done");
+      } catch (error) {
+        console.error("Error sending data:", error);
+      }
+    }
+  };
+
   return (
     <>
       <Head>
