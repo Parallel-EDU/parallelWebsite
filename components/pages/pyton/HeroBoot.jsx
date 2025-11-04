@@ -54,9 +54,32 @@ const HeroBoot = () => {
       }
     }
   };
+
+  const items = [
+    {
+      big: "1800+",
+      title: "Students Trained",
+      align: "left",
+    },
+    {
+      big: "100%",
+      title: "Internship Guaranteed",
+      align: "right",
+    },
+    {
+      big: "Placement",
+      title: "Assistance",
+      align: "left",
+    },
+    {
+      big: "Industry",
+      title: "Recognized Certificate",
+      align: "right",
+    },
+  ];
   return (
     <>
-      <div className="overflowhidden">
+      <div className="overflowhidden  hero-python">
         <div className="absolute z-20 w-[100%] h-[1022px] top-[0px] overflow-hidden">
           <div className={style.backgroundbox123}></div>
         </div>
@@ -73,7 +96,9 @@ const HeroBoot = () => {
           <div className="max-hamburger:w-full widescreen:w-[60%] max-xl:w-[73%]">
             <div className="relative z-30 w-full">
               <h1 className="w-[685.41px] widescreen:w-full text-[56.07px] widescreen:text-[84px] widestscreen:text-[94px] font-medium max-hamburger:w-[100%]  max-smalllaptop:w-[510px] max-bigscreen:w-[676px] max-smalllaptop:tracking-[-4.5px] max-smalllaptop:text-[66px] max-sm:text-[60px] max-smallphone:text-[42px] max-sm:tracking-normal max-sm:mb-[12px] max-smalllaptop:leading-[102%] font-light tracking-[-3.5px] leading-[65.73px] text-[#E5E5E5] font-['Graphikmedium'] font-light mb-[20px]">
-                Master Python & Launch Your Career in Tech
+                Master Python{" "}
+                <span className="font-['system-ui'] font-[100]">& </span> Launch
+                Your Career in Tech
                 {/* <span className="font-['Graphik'] font-semibold">
                   {" "}
                   an affordable price.
@@ -91,9 +116,40 @@ const HeroBoot = () => {
               </Link>
             </div>
 
-            <StatsBar />
+            <div className="max-w-[562px]">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-10  py-16 ">
+                {items.map((it, idx) => (
+                  <div key={idx} className="relative card-gradient-border">
+                    {/* Top row: big stat or word */}
+                    <div
+                      className={`stat-title text-[#fff] opacity-80 tracking-tight leading-none
+                               ${
+                                 idx < 2
+                                   ? "text-stat md:text-[32px]"
+                                   : "text-stat md:text-[32px]"
+                               }`}
+                    >
+                      {it.big}
+                    </div>
+
+                    {/* subtitle */}
+                    <p className="mt-2 text-[#FFFFFFCC] font-['Graphikthin'] opacity-80 text-base md:text-lg">
+                      {it.title}
+                    </p>
+
+                    {/* neon divider */}
+                    <div
+                      className={`neon-line mt-6 ${
+                        it.align === "left" ? "ml-0 md:ml-0" : "ml-auto"
+                      } w-full md:w-11/12`}
+                    ></div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            {/* <StatsBar /> */}
           </div>
-          <div className="w-[457px] widescreen:h-[calc(100%-110px)] widescreen:w-[35%] relative max-sm:w-full z-30 backdrop-blur-sm max-hamburger:w-[70%] flex flex-col z-20 gap-[32px] max-sm:gap-[20px] max-sm:h-auto h-589px] px-[37px] max-sm:px-[20px] max-sm:py-[16px] py-[34px] rounded-[14px] bg-[#FFFFFF1A]">
+          <div className="w-[457px] widescreen:h-[calc(100%-110px)] h-full widescreen:w-[35%] relative max-sm:w-full z-30 backdrop-blur-sm max-hamburger:w-[70%] flex flex-col z-20 gap-[32px] max-sm:gap-[20px] max-sm:h-auto h-589px] px-[16px] max-sm:px-[20px] max-sm:py-[16px] py-[16px] rounded-[14px] bg-[#FFFFFF1A]">
             <div className="flex flex-col gap-[16px]">
               <div className="flex justify-between">
                 <p
@@ -103,7 +159,7 @@ const HeroBoot = () => {
                       : "text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]"
                   }
                 >
-                  Name
+                  Name*
                 </p>
                 <p
                   className={
@@ -135,7 +191,7 @@ const HeroBoot = () => {
                       : "text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]"
                   }
                 >
-                  Email
+                  Email*
                 </p>
                 <p
                   className={
@@ -167,7 +223,7 @@ const HeroBoot = () => {
                       : "text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]"
                   }
                 >
-                  Phone Number
+                  Phone Number*
                 </p>
                 <p
                   className={
@@ -199,7 +255,7 @@ const HeroBoot = () => {
                       : "text-[16px] font-[400] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]"
                   }
                 >
-                  Program of Interest
+                  I am*
                 </p>
                 <p
                   className={
@@ -220,6 +276,7 @@ const HeroBoot = () => {
                 }
               >
                 {Role}
+
                 <Image
                   alt="arrow"
                   src="/arrowdown.svg"

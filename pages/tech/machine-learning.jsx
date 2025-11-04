@@ -1,3 +1,4 @@
+//  "@/components/footer";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Blog from "@/components/pages/Home/Blog";

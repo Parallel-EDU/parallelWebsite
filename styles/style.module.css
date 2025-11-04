@@ -43,6 +43,7 @@
   background-repeat: no-repeat;
   mix-blend-mode: color-dodge;
   z-index: 22;
+  opacity: 0.3;
 }
 
 .backgroundbox2 {
@@ -56,6 +57,7 @@
   background-repeat: no-repeat;
   mix-blend-mode: color-dodge;
   z-index: 22;
+  opacity: 0.4;
 }
 .fullgrid {
   background-image: url("../public/full-grid.svg");

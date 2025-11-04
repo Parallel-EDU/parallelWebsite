@@ -62,7 +62,7 @@ export default function CareerLaunchpadHero() {
         >
           Why Choose Parallel
         </span>
-        <h1 className="text-white font-['Graphikthin'] text-5xl sm:text-[64px] font- leading- mb-5">
+        <h1 className="text-white pt-10 font-['Graphikthin'] text-5xl sm:text-[64px] mb-5">
           Not just coding. a complete <br />
           career launchpad
         </h1>

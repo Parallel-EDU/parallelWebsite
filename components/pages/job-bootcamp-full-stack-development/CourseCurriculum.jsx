@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 const coursePhasesData = [
@@ -144,7 +145,7 @@ export default function CourseCurriculum() {
     <div>
       {/* Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-8">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight">
+        <h1 className="text-white mt-10 font-['Graphikthin'] text-5xl sm:text-[64px] font- leading- mb-5">
           Course curriculum
         </h1>
       </div>
@@ -316,10 +317,12 @@ export default function CourseCurriculum() {
       </div>
 
       {/* CTA Button */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 flex justify-center">
-        <button className="px-8 py-3 border-2 border-cyan-400 text-cyan-400 rounded-lg font-medium hover:bg-cyan-400 hover:text-slate-950 transition-all duration-300">
-          Join The Next Cohort
-        </button>
+      <div className="flex justify-center pt-7">
+        <Link href={"/hire-from-us"}>
+          <button className="group rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
+            Join The Next Cohort
+          </button>
+        </Link>
       </div>
 
       <style jsx>{`

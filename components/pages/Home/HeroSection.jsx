@@ -76,13 +76,13 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-10 max-w-[1020px] mx-auto">
         <h1 className="text-[64px] leading-tight font-['Graphikthin'] text-white max-md:text-[48px] max-sm:text-[36px]">
-          Your dream tech career starts here.
+          Upskill in Python, Gain Real-World Experience, and Land Your Dream Job
         </h1>
 
-        <p className="mt-6 text-white/80 text-lg max-sm:text-base">
+        {/* <p className="mt-6 text-white/80 text-lg max-sm:text-base">
           Join India’s most practical, results-driven tech bootcamps with
           guaranteed placement support.
-        </p>
+        </p> */}
 
         <Link href="/signup" className="z-[99999]">
           <button className="mt-10 border border-[#1BD44F] text-[#1BD44F] px-8 py-3 rounded-md text-lg font-medium hover:bg-[#1BD44F]/10 transition-all duration-300">

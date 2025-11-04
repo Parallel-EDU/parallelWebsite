@@ -7,16 +7,16 @@ import Link from "next/link";
 export default function CareerLaunchpadHero() {
   const features = [
     {
-      title: "Hands-On Python Projects",
-      desc: "Build real applications using Python to showcase in your portfolio",
+      title: "Hands-On Java Projects",
+      desc: "Build enterprise-level applications for your portfolio",
     },
     {
       title: "Internship Opportunities",
-      desc: "Gain industry experience and work on live projects.",
+      desc: "Gain live project experience in real-world Java applications",
     },
     {
       title: "Mentor Guidance",
-      desc: "One-on-one support and code reviews from experienced engineers",
+      desc: "Personalized code reviews and mentorship from experienced engineers",
     },
     {
       title: "Career Mentorship",
@@ -28,7 +28,7 @@ export default function CareerLaunchpadHero() {
     },
     {
       title: "Industry-Relevant Curriculum",
-      desc: "Learn Python libraries, frameworks, and tools used in top companies",
+      desc: "Learn Java OOP, Collections, Streams, Exception Handling, and APIs",
     },
   ];
 

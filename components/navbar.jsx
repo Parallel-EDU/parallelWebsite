@@ -203,7 +203,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 z-[9999] bg-[#1A1A1A]/90 backdrop-blur-xl px-[80px] py-[22px] flex justify-between items-center  max-xl:px-[40px] max-lg:px-[40px] max-sm:px-[20px]">
+    <nav className="sticky top-0 z-[9999] bg-[#1A1A1A]/10 backdrop-blur-xl px-[80px] py-[22px] flex justify-between items-center  max-xl:px-[40px] max-lg:px-[40px] max-sm:px-[20px]">
       {/* Logo */}
       <Link href="/" className="flex items-center">
         <Image src="/Frame 96.svg" alt="Parallel" width={140} height={26} />
@@ -287,7 +287,7 @@ export default function Navbar() {
                     col.map((item, j) => (
                       <Link
                         key={i + "-" + j}
-                        href="#"
+                        href="/tech/python"
                         className="hover:text-[#30E29D] text-[#E5E5E5]"
                       >
                         {item}

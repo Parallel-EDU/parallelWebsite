@@ -39,8 +39,7 @@ export default function PlacementSupport() {
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20">
         {/* Heading */}
         <h2 className="text-4xl sm:text-5xl md:text-[64px] font-['Graphikthin'] tracking-tight font-normal text-white/95">
-          Placement <span className="font-['system-ui'] font-[100]">& </span>{" "}
-          career support
+          Placement <span className="font-['Graphik']">& </span> career support
         </h2>
 
         {/* Subheading */}

@@ -4,35 +4,21 @@ import React from "react";
 
 const plans = [
   {
-    title: "Data Science with GenAI (Most Popular)",
+    title: "Python Certification with Internship",
     features: [
       "Industry-standard curriculum",
-      "1:1 mentorship, dedicated manager",
       "AI-powered projects",
+      "1:1 mentorship,",
+      "dedicated manager",
       "unlimited live doubt support",
       "Dedicated manager",
+      "100% Internship",
       "live webinars",
       "personalized placement assistance",
-      "cancel anytime in first 14 days (full refund)",
+      "cancel anytime in first 7 days (full refund)",
     ],
-    price: "₹54,999",
-    mrp: "₹85,000",
-    cta: "Enroll Now",
-  },
-  {
-    title: "Spring Boot",
-    features: [
-      "Industry-standard curriculum",
-      "AI-powered projects",
-      "1:1 mentorship, dedicated manager",
-      "unlimited live doubt support",
-      "live webinars",
-      "personalized placement assistance",
-      "cancel anytime in first 14 days (full refund)",
-      "backend with Java/Spring Boot",
-    ],
-    price: "₹44,999",
-    mrp: "₹75,000",
+    price: "₹39,999",
+    mrp: "₹24,000",
     cta: "Enroll Now",
   },
 ];
@@ -54,20 +40,21 @@ function CheckIcon() {
 
 export default function PlansPricing() {
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="relative w-full price-bg">
       {/* radial dark gradient background */}
-      <div className="absolute inset-0 -z-10 bg-black">
+      {/* <div className="absolute inset-0 -z-10 bg-black">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(16,185,129,0.15),transparent_55%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.08),transparent_60%)]" />
-      </div>
+      </div> */}
 
-      <div className="mx-auto max-w-4xl px-6 py-16 lg:py-20">
-        <h2 className="text-4xl text-center sm:text-5xl md:text-[64px] font-['Graphikthin'] tracking-tight font-normal text-white/95">
-          Plans & pricing
+      <div className="mx-auto max-w-4xl px-6 py-16 lg:py-20 z-[90] relative">
+        <h2 className="text-4xl text-center sm:text-5xl md:text-[64px]  z-[90] font-['Graphikthin'] tracking-tight font-normal text-white/95">
+          Plans <span className="font-['system-ui'] font-[100]">& </span>{" "}
+          pricing
         </h2>
 
         {/* cards container */}
-        <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-2">
+        <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-1">
           {plans.map((p, idx) => (
             <div
               key={idx}
@@ -76,7 +63,7 @@ export default function PlansPricing() {
               {/* inner stroke like the screenshot */}
               <div className="rounded-2xl p-6 sm:p-8 flex flex-col justify-between h-full">
                 <div>
-                  <h3 className="text-xl sm:text-[32px] font-['Graphikthin'] text-[#E5E5E5]">
+                  <h3 className="text-[20px] sm:text-[32px] leading-snug font-['Graphikthin'] text-[#E5E5E5]">
                     {p.title}
                   </h3>
 
@@ -106,21 +93,21 @@ export default function PlansPricing() {
                 {/* pricing + CTA */}
                 <div className="mt-8 flex items-center justify-between">
                   <div className="flex items-baseline gap-3">
-                    <span className="text-2xl sm:text-3xl font-semibold text-white/95">
+                    <span className="text-2xl sm:text-3xl font-semibold text-[#FFFFFFCC]">
                       {p.price}
                     </span>
                     <span className="text-neutral-500 line-through decoration-2">
                       {p.mrp}
                     </span>
                   </div>
-
-                  <button
-                    className="rounded-full border border-emerald-500/60 px-5 py-2.5 text-emerald-400 text-sm hover:bg-emerald-500/10 transition shadow-[0_0_0_1px_rgba(16,185,129,0.25)]"
-                    type="button"
-                  >
-                    {p.cta}
-                  </button>
                 </div>
+
+                <button
+                  className="rounded-lg border mt-4 border-emerald-500/60 px-5 py-4 text-[#30E29D]  text-[16px]  transition hover:bg-[#30E29D] hover:text-[#292929] border-[#30E29D]"
+                  type="button"
+                >
+                  {p.cta}
+                </button>
               </div>
             </div>
           ))}

@@ -6,41 +6,41 @@ import { useState, useEffect } from "react";
 const modules = [
   {
     id: 1,
-    title: "Module 1: Python Fundamentals",
+    title: "Module 1: Java Fundamentals ",
     description:
       "Variables, Data Types, Loops, Conditionals, Functions, and File Handling",
   },
   {
     id: 2,
-    title: "Module 2: Advanced Python",
-    description: "OOP, Exception Handling, Modules, Packages, and Decorators",
+    title: "Module 2: Advanced Java",
+    description:
+      "OOP Concepts, Exception Handling, Collections, Generics, Streams",
   },
   {
     id: 3,
-    title: "Module 3: Data Handling & Libraries",
-    description:
-      "NumPy, Pandas, Matplotlib, and Seaborn for data manipulation & visualization",
+    title: "Module 3: APIs & Libraries ",
+    description: "JDBC, Servlets, JavaFX basics",
   },
   {
     id: 4,
-    title: "Module 4: Web & API Development",
-    description:
-      "Flask/Django basics, RESTful API creation, database integration",
+    title: "Module 4: Framework Introduction",
+    description: "Spring Boot basics for enterprise apps",
   },
   {
     id: 5,
-    title: "Module 5: Automation & Scripting",
-    description: "Automate tasks, file management, and web scraping",
+    title: "Module 5: Mini Projects & AI Tools ",
+    description: "Automation tasks, code optimization using GenAI",
   },
   {
     id: 6,
-    title: "Module 6: Data Projects & AI Integration",
-    description: "Build mini-projects incorporating AI or GenAI concepts",
+    title: "Module 6: Internship Project ",
+    description: "Build a live Java project under mentor guidance",
   },
   {
     id: 7,
-    title: "Module 7: Internship Project",
-    description: "Work on a live industry project under mentor supervision",
+    title: "Module 7: Career & Placement Prep ",
+    description:
+      "Resume review, mock interviews, portfolio showcase, job assistance",
   },
   {
     id: 8,

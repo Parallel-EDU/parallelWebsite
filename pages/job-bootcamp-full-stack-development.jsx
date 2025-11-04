@@ -20,7 +20,6 @@ const jobbootcampfullstackdevelopment = () => {
         <CareerLaunchpadHero />
         <CourseCurriculum />
         <Industry />
-
         <PlacementSupport />
         <PlansPricing />
         <CourseRoadmap />
