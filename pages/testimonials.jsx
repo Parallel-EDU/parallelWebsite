@@ -45,9 +45,11 @@ export default function Testimonials() {
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20">
         {/* Left block: heading + copy + CTA */}
         <div className="max-w-2xl">
-          <h2 className="text-4xl sm:text-5xl font-semibold tracking-tight text-white/95">
-            Real Stories. Real Transformations. Real Results.
-          </h2>
+          <h1 className="text-white mt-10 font-['Graphikthin'] text-5xl sm:text-[64px] font- leading- mb-5">
+            Real Stories. Real
+            <br />
+            Transformations. Real Results.
+          </h1>
           <p className="mt-4 text-sm sm:text-base text-neutral-300">
             Behind every testimonial is a journey of persistence, mentorship,
             and growth - proof that the right guidance can change everything.
